@@ -63,9 +63,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
   width: 1120px;
   
+}
+
+.cards-wrap-all {
+  padding-left: 200px;
 }
 
 .cards-wrap {
