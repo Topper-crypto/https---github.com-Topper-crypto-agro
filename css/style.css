@@ -49,6 +49,39 @@ img {
   color: white;
 }
 
+.hero-container {
+  margin-bottom: 150px;
+}
+
+.header-cards {
+  display: block;
+  margin: 5px 245px;
+  border-bottom: 2px solid black;
+}
+
+.cards-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.img-wrap {
+  max-width: 540px;
+  max-width: 340px;
+}
+
+.img-1 {
+  background-image:  url(../img/seeds-1.png);
+  width: 540px;
+  height: 3340px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  border-radius: 10px;
+}
+
 /* <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
