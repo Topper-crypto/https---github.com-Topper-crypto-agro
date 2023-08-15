@@ -59,28 +59,72 @@ img {
   border-bottom: 2px solid black;
 }
 
-.cards-wrap {
+.cards-services {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  width: 1080px;
-  margin: 0 auto;
+  width: 1120px;
+  
+}
+
+.cards-wrap {
+  max-width: 1080px;
 }
 
 .img-wrap {
   max-width: 540px;
-  max-width: 340px;
+  max-height: 340px;
 }
 
 .img-1 {
   background-image:  url(../img/seeds-1.png);
   width: 540px;
-  height: 3340px;
+  height: 340px;
   background-repeat: no-repeat;
   z-index: 100;
   border-radius: 10px;
 }
+
+.img-2 {
+  background-image:  url(../img/def-2.png);
+  width: 540px;
+  height: 340px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.img-3 {
+  background-image:  url(../img/mikro-3.png);
+  width: 540px;
+  height: 340px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.img-4 {
+  background-image:  url(../img/serv-4.png);
+  width: 540px;
+  height: 340px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 22px;
+}
+.nav-list--item {
+  padding-right: 40px;
+  color: black;
+}
+
+
 
 /* <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
