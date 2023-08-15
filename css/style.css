@@ -1,8 +1,36 @@
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container-m {
+  max-width: 1900px;
+  padding: 5px;
+}
+
 .header-top {
   display: flex;
+  justify-content: space-around;
   align-items: center;
   border-top: 5px solid green;
   border-bottom: 5px solid orange;
+}
+
+.logo-agro {
+  width: 220px;
+  height: 60px;
 }
 
 .phone {
@@ -20,3 +48,13 @@
 .nav-list--link {
   color: white;
 }
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+</style>
+*/
