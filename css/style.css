@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -54,9 +60,9 @@ img {
 }
 
 .header-cards {
-  display: block;
   margin: 5px 245px;
   border-bottom: 2px solid black;
+  width: 1050px;
 }
 
 .cards-services {
@@ -76,9 +82,20 @@ img {
 }
 
 .img-wrap {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   max-width: 540px;
   max-height: 340px;
+  padding-top: 40px;
+  padding-left: 40px;
+
 }
+
+
+
 
 .img-1 {
   background-image:  url(../img/seeds-1.png);
@@ -120,13 +137,21 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-left: 22px;
+  
 }
 .nav-list--item {
   padding-right: 40px;
   color: black;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+height: 100px;
+width: 1900px;
+}
 
 
 /* <link rel="preconnect" href="https://fonts.googleapis.com">
