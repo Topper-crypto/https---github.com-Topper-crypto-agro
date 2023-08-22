@@ -22,8 +22,9 @@ img {
 }
 
 .container-m {
-  max-width: 1900px;
+  max-width: 99%;
   padding: 5px;
+  margin: 0 auto;
 }
 
 .header-top {
@@ -47,6 +48,21 @@ img {
   background-position: -13px 6px;
 }
 
+.button-call {
+    padding: 10px 10px 10px 10px;
+    
+    display: block;
+    max-width: 160px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    color: orange;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+
 .footer {
   background-color: black;
 }
@@ -56,13 +72,18 @@ img {
 }
 
 .hero-container {
+  background-image: url(../img-2/hero-man.jpg);
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 500px;
   margin-bottom: 150px;
+  padding: 270px 265px 75px 900px;
 }
 
 .header-cards {
-  margin: 5px 245px;
+  margin: 0 auto;
   border-bottom: 2px solid black;
-  width: 1050px;
+  min-width: 1050px;
 }
 
 .cards-services {
@@ -74,7 +95,9 @@ img {
 }
 
 .cards-wrap-all {
-  padding-left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cards-wrap {
@@ -85,20 +108,18 @@ img {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  
   max-width: 540px;
   max-height: 340px;
-  padding-top: 40px;
-  padding-left: 40px;
-
+  padding: 70px 140px 95px 30px;
+ 
 }
 
 
 
 
 .img-1 {
-  background-image:  url(../img/seeds-1.png);
+  background-image:  url(../img-2/seeds.png);
   width: 540px;
   height: 340px;
   background-repeat: no-repeat;
@@ -107,7 +128,7 @@ img {
 }
 
 .img-2 {
-  background-image:  url(../img/def-2.png);
+  background-image:  url(../img-2/deff.png);
   width: 540px;
   height: 340px;
   background-repeat: no-repeat;
@@ -116,7 +137,7 @@ img {
 }
 
 .img-3 {
-  background-image:  url(../img/mikro-3.png);
+  background-image:  url(../img-2/micro.png);
   width: 540px;
   height: 340px;
   background-repeat: no-repeat;
@@ -125,7 +146,7 @@ img {
 }
 
 .img-4 {
-  background-image:  url(../img/serv-4.png);
+  background-image:  url(../img-2/service.png);
   width: 540px;
   height: 340px;
   background-repeat: no-repeat;
