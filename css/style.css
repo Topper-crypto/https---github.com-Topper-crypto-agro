@@ -159,13 +159,6 @@ img {
   border-radius: 10px;
 }
 
-<<<<<<< HEAD
-.footer {
-  background-color: black;
-}
-
-
-=======
 .img-seeds-1 {
   background-image:  url(../img-2/corn.png);
   width: 570px;
@@ -175,7 +168,6 @@ img {
   border-radius: 10px;
 }
 
->>>>>>> 6aae278 (pages)
 .nav-list {
   display: flex;
   justify-content: space-around;
@@ -199,17 +191,9 @@ img {
 .footer-container {
   display: flex;
   justify-content: space-around;
-<<<<<<< HEAD
-  align-items: center;
-  height: 100px;
-  width: 1900px;
-  color: white;
-}
-=======
   align-items: center;  
   height: 100px;
   }
->>>>>>> 6aae278 (pages)
 
 /* <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
