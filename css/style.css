@@ -4,6 +4,7 @@
   font-size: 1em;
   font-weight: 400;
   box-sizing: border-box;
+  text-shadow: 6px 1px 5px #969696;
 }
 
 ul {
@@ -15,6 +16,7 @@ ul {
 a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 img {
@@ -33,11 +35,21 @@ img {
   align-items: center;
   border-top: 5px solid green;
   border-bottom: 5px solid orange;
+  
+}
+
+.header-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  
 }
 
 .logo-agro {
   width: 220px;
   height: 60px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 
 .phone {
@@ -46,17 +58,17 @@ img {
   background-repeat: no-repeat;
   background-size: 51px 25px;
   background-position: -13px 6px;
+  cursor: pointer;
 }
 
 .button-call {
-    padding: 10px 10px 10px 10px;
-    
+    padding: 10px 10px 10px 10px;    
     display: block;
     max-width: 160px;
     border: 1px solid orange;
     border-radius: 10px;
-    color: orange;
-    background-color: white;
+    color: white;
+    background-color: #FF9900;
     cursor: pointer;
     text-align: center;
 
@@ -66,6 +78,7 @@ img {
 .hero-container {
   background-image: url(../img-2/hero-man.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   min-width: 100%;
   min-height: 500px;
   margin-bottom: 150px;
@@ -146,11 +159,23 @@ img {
   border-radius: 10px;
 }
 
+<<<<<<< HEAD
 .footer {
   background-color: black;
 }
 
 
+=======
+.img-seeds-1 {
+  background-image:  url(../img-2/corn.png);
+  width: 570px;
+  height: 805px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+>>>>>>> 6aae278 (pages)
 .nav-list {
   display: flex;
   justify-content: space-around;
@@ -174,11 +199,17 @@ img {
 .footer-container {
   display: flex;
   justify-content: space-around;
+<<<<<<< HEAD
   align-items: center;
   height: 100px;
   width: 1900px;
   color: white;
 }
+=======
+  align-items: center;  
+  height: 100px;
+  }
+>>>>>>> 6aae278 (pages)
 
 /* <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
