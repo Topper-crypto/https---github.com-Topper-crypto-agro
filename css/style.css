@@ -4,7 +4,7 @@
   font-size: 1em;
   font-weight: 400;
   box-sizing: border-box;
-  text-shadow: 6px 1px 5px #969696;
+  /* text-shadow: 6px 1px 5px #969696; */
 }
 
 ul {
@@ -50,7 +50,7 @@ img {
   width: 220px;
   height: 60px;
   cursor: pointer;
-  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  /* box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2); */
 }
 
 .phone {
@@ -91,6 +91,11 @@ img {
   width: 1040px;
 }
 
+.header-cards-seeds {  
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
 .cards-services {
   display: flex;
   flex-wrap: wrap;
@@ -98,6 +103,14 @@ img {
   width: 1120px;
   
 }
+
+.cards-services-seeds {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
 
 .cards-wrap-all {
   display: flex;
@@ -109,7 +122,13 @@ img {
   max-width: 1080px;
 }
 
+.cards-wrap-seeds {
+  width: 100%;
+}
+
+
 .img-wrap {
+  /* box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2); */
   border-radius: 10px;
   display: flex;
   flex-direction: column; 
@@ -164,6 +183,15 @@ img {
   width: 570px;
   height: 805px;
   background-repeat: no-repeat;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.img-seeds-2 {
+  /* background-image:  url(../img-2/corn.png); */
+  width: 1000px;
+  height: 500px;
+  /* background-repeat: no-repeat; */
   z-index: 100;
   border-radius: 10px;
 }
