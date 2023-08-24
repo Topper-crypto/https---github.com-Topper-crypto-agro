@@ -84,6 +84,27 @@ img {
   min-height: 500px;
   margin-bottom: 150px;
   padding: 270px 265px 75px 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.hero-a {
+  background-image: url(../img-2/A.svg);
+  background-repeat: no-repeat;
+  width: 418px;
+  height: 463px;
+}
+
+.wrap-text {
+  margin-right: 50px;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: row;
+  height: 462px;
+  width: 800px;
 }
 
 .header-cards {  
@@ -94,6 +115,26 @@ img {
 .header-cards-seeds {  
   border-bottom: 2px solid black;
   width: 100%;
+}
+
+.seeds-cards {
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-seeds-1 {
+  background-image: url(../img-2/corn_mini.png);
+  background-repeat: no-repeat;
+  width: 418px;
+  height: 463px;
+  
+}
+
+.inner-seeds-4 {
+  display: flex;
+  flex-direction: row;
 }
 
 .cards-services {
