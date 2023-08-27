@@ -1,4 +1,4 @@
-
+  /* Общие настройки */
 * {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
@@ -30,51 +30,41 @@ img {
   background-color: #F0F0F0;
 }
 
+  /* Главная страница */
+
 .header-top {
   display: flex;
+  height: 150px;
   justify-content: space-around;
   align-items: center;
-  border-top: 5px solid green;
-  border-bottom: 5px solid orange;
-  
-}
-
-.header-item {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  
+  border-top: 15px solid green;
+  border-bottom: 15px solid orange;  
 }
 
 .logo-agro {
-  width: 220px;
+  width: 320px;
   height: 60px;
   cursor: pointer;
   /* box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2); */
 }
 
+.addres {
+  font-size: 26px;
+}
+
 .phone {
-  padding: 9px 0px 5px 32px;
-  background-image: url(/img/phone-ico.svg);
-  background-repeat: no-repeat;
-  background-size: 51px 25px;
-  background-position: -13px 6px;
-  cursor: pointer;
-}
-
-.button-call {
-    padding: 10px 10px 10px 10px;    
-    display: block;
-    max-width: 160px;
-    border: 1px solid orange;
-    border-radius: 10px;
-    color: white;
-    background-color: #FF9900;
+  padding: 9px 0px 5px 42px;
+    background-image: url(/img/phone-ico.svg);
+    background-repeat: no-repeat;
+    background-size: 66px 40px;
+    background-position: -13px 9px;
     cursor: pointer;
-    text-align: center;
-
+    font-size: 34px;
 }
 
+.email {
+  font-size: 26px;
+}
 
 .hero-container {
   background-image: url(../img-2/hero-man.jpg);
@@ -82,29 +72,97 @@ img {
   background-size: cover;
   min-width: 100%;
   min-height: 500px;
-  margin-bottom: 150px;
-  padding: 270px 265px 75px 900px;
+  margin-bottom: 50px;
+  padding: 120px 0px 0px 900px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-.hero-a {
-  background-image: url(../img-2/A.svg);
-  background-repeat: no-repeat;
-  width: 418px;
-  height: 463px;
-}
-
-.wrap-text {
-  margin-right: 50px;
-}
-
 .container-text {
   display: flex;
   flex-direction: row;
-  height: 462px;
-  width: 800px;
+  height: 460px;
+  width: 890px;
+}
+
+.hero-text {
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 600;
+  color: #2A4903;
+}
+
+.hero-text-2 {
+  font-size: 32px;
+  font-style: italic;
+  color: #0f0f0f;
+  background-color: #529934;
+  border-left: 20px solid #ED7600;
+}
+
+.button-call {
+  padding: 10px 10px 10px 10px;    
+  display: block;
+  max-width: 160px;
+  border: 1px solid orange;
+  border-radius: 10px;
+  color: white;
+  background-color: #FF9900;
+  cursor: pointer;
+  text-align: center;
+}
+
+.hero-a {
+  background-image: url(../img-2/A.svg);
+  background-repeat: no-repeat;
+  width: 850px;
+  height: 500px;
+}
+
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  padding-left: 483px;  
+}
+
+.header-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+    
+}
+.header-cards-link-seeds{
+  font-size: 64px;
+  color: #2A4903;
+  font-weight: 600;
+}
+
+.h-seeds {
+  margin: 0;  
+}
+
+.cards-wrap-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-wrap {
+  max-width: 1038px;
+  border-top: 2px solid black;
+  padding-top: 20px;
+}
+
+.cards-services {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1080px;  
+}
+
+.cards-item:not(:nth-child(2n)) {
+  margin-bottom: 23px;
 }
 
 .header-cards {  
@@ -118,7 +176,7 @@ img {
 }
 
 .seeds-cards {
-  width: 1000px;
+  width: 100%;
   height: 200px;
   display: flex;
   flex-direction: row;
@@ -127,22 +185,13 @@ img {
 .inner-seeds-1 {
   background-image: url(../img-2/corn_mini.png);
   background-repeat: no-repeat;
-  width: 418px;
-  height: 463px;
-  
+  width: 250px;
+    height: 355px;
 }
 
 .inner-seeds-4 {
   display: flex;
   flex-direction: row;
-}
-
-.cards-services {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 1120px;
-  
 }
 
 .cards-services-seeds {
@@ -151,34 +200,13 @@ img {
   flex-direction: row;
 }
 
-
-
-.cards-wrap-all {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cards-wrap {
-  max-width: 1080px;
-}
-
-.cards-wrap-seeds {
-  width: 100%;
-}
-
-
 .img-wrap {
   /* box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2); */
   border-radius: 10px;
   display: flex;
   flex-direction: column; 
-  padding: 70px 210px 80px 30px;
- 
+  padding: 70px 210px 80px 30px; 
 }
-
-
-
 
 .img-1 {
   background-image:  url(../img-2/seeds.png);
@@ -219,29 +247,18 @@ img {
   border-radius: 10px;
 }
 
-.img-seeds-1 {
-  background-image:  url(../img-2/corn.png);
-  width: 570px;
-  height: 805px;
-  background-repeat: no-repeat;
-  z-index: 100;
-  border-radius: 10px;
-}
-
-.img-seeds-2 {
-  /* background-image:  url(../img-2/corn.png); */
-  width: 1000px;
-  height: 500px;
-  /* background-repeat: no-repeat; */
-  z-index: 100;
-  border-radius: 10px;
-}
+.footer-container {
+  background: linear-gradient(0deg, #000000d6, #242427ac);
+  height: 100px;
+  width: 100%;
+  padding-top: 25px; 
+  font-size: 30px;
+  }
 
 .nav-list {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  
+  align-items: center;    
 }
 
 .nav-list--item {
@@ -253,17 +270,105 @@ img {
   color: white;
 }
 
+  /* СТРАНИЦА СЕМЕНА */
+
+.cards-wrap-seeds {
+  padding-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.cards-wrap-seeds-bottom {
+  padding-top: 70px;
+  width: 1280px;
+}
+
+.inner-seeds-2 {
+width: 480px;
+}
+
+.seeds-type {
+  font-size: 30px;
+  font-weight: 600;
+  color: #529934;
+}
+
+.inner-seeds-3 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: left;
+  text-align: left;
+}
+
+.seeds-svg-corn {
+  width: 52px;
+  height: 72px;
+}
+.seeds-svg-cow {
+  width: 52px;
+  height: 72px;
+}
+
+.seeds-svg-180 {
+  width: 52px;
+  height: 72px;
+}
+
+.seeds-list-left {
+  list-style: inside;
+}
+
+.img-seeds-1 {
+  background-image:  url(../img-2/corn.png);
+  width: 570px;
+  height: 805px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  
+}
+
+.cards-left-seeds {
+ margin: 0;
+ padding: 195px 0 0 0;
+   width: 180px;
+  height: 215px;
+}
+
+.cards-right-seeds {
+  margin: 0;
+  width: 800px;
+  height: 350px;
+}
+
+.img-seeds-2 {
+  background-image:  url(../img-2/pkg.png);
+  background-size: 159px 185px;
+
+  background-repeat: no-repeat;
+  z-index: 100; 
+}
+
+
+
+.img-seeds-right-text {
+  margin-top: 0;
+  font-size: 17px;
+}
+
+.right-block-seeds {
+  width: 800px;
+  min-height: 300px;
+  max-height: 800px;
+}
+
 .fitem {
   color: white;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-around;
-  background-color: black;
-  align-items: center;  
-  height: 100px;
-  }
+
 
 /* <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -274,3 +379,23 @@ img {
   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
 </style>
 */
+
+  /* АДАПТИВ */
+/* 
+@media(max-width: 3940px)
+{
+.breadcrumb-list {
+    display: flex;
+    align-items: center;
+    padding-left: 1425px;
+  }
+}
+
+@media(max-width: 1920px)
+{
+.breadcrumb-list {
+    display: flex;
+    align-items: center;
+    padding-left: 428px;
+  }
+} */
