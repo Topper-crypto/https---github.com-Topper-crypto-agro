@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>СЕМЕНА</title>
+    <title>СЕРВИС</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/aos.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -25,32 +27,63 @@
           </nav>    
       </header>
     </section>
-    
-    <section class="hero">
-        <div class="hero-container">
-
+    <section class="slider">
+      <div class="slider-wrap">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./img-2/delivry.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img-2/field.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img-2/store.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img-2/agro24.jpg" alt=""></div>
+          </div>
+         
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        
+         
         </div>
-    </section>
-    <section class="cards">
-      <div class="header-cards">
-        <a href="index.html" class="header-cards-link"><h3>Главная / О компании</h3></a>
       </div>
-        
-        
+    
     </section>
-    <footer class="footer">
-        <div class="footer-container">
-            <nav class="nav-top">
-                <ul class="nav-list">
-                  <li class="nav-list--item"><a href="#" class="nav-list--link">О компании</a></li>
-                  <li class="nav-list--item"><a href="#" class="nav-list--link">Вакансии</a></li>
-                  <li class="nav-list--item"><a href="#" class="nav-list--link">Диплом и сертификаты</a></li>
-                  <li class="nav-list--item"><a href="#" class="nav-list--link">Реквизиты</a></li>
-                  <li class="nav-list--item"><a href="#" class="nav-list--link">Полезная информация</a></li>
-                </ul>
-              </nav>
+    <section class="hero-service">
+        <div class="hero-container-service">
+          <div data-aos="fade-up-right" data-aos-delay="700" class="headers-service">
+          <h2 class="text-header">Мы оказываем помощь и сопровождение на всех этапах производства предлагаемых культур</h2>     
+          <span class="text2-service">Мы оказываем помощь и сопровождение на всех этапах производства предлагаемых культур</span>
         </div>
-    </footer>
+        <div data-aos="fade-up-right" data-aos-delay="700" class="list-wrap-service">
+          <lh class="list-heder-service">Мы  поможем:</lh>
+            <ul class="service-list">
+              <li class="service-list-item">Выбрать качественный посевной материал</li>
+              <li class="service-list-item">Подобрать оптимальные схемы защиты и подкормки</li>
+              <li class="service-list-item">Произвести мониторинг полей</li>
+              <li class="service-list-item">Своевременно определить проблемы и предложить лучшее решение для их устранения.</li>
+            </ul>
+          </div>
+      </div>
+    </section>
+
+    
+  <footer  class="footer">
+    <div class="footer-container">
+        <nav class="nav-top">
+            <ul class="nav-list">
+              <li class="nav-list--item"><a href="index.html" class="nav-list--link">О компании</a></li>
+              <li class="nav-list--item"><a href="#" class="nav-list--link">Вакансии</a></li>
+              <li class="nav-list--item"><a href="#" class="nav-list--link">Диплом и сертификаты</a></li>
+              <li class="nav-list--item"><a href="#" class="nav-list--link">Реквизиты</a></li>
+              <li class="nav-list--item"><a href="#" class="nav-list--link">Полезная информация</a></li>
+            </ul>
+          </nav>
+    </div>
+</footer>
   </div>
+  <script src="/js/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.js"></script>
+  <script src="/js/aos.js"></script>
+  <script src="/js/js-swipper.js"></script>
 </body>
 </html>

@@ -126,22 +126,6 @@ img {
   padding-left: 483px;  
 }
 
-.header-item {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-    
-}
-.header-cards-link-seeds{
-  font-size: 64px;
-  color: #2A4903;
-  font-weight: 600;
-}
-
-.h-seeds {
-  margin: 0;  
-}
-
 .cards-wrap-all {
   display: flex;
   align-items: center;
@@ -163,41 +147,6 @@ img {
 
 .cards-item:not(:nth-child(2n)) {
   margin-bottom: 23px;
-}
-
-.header-cards {  
-  border-bottom: 2px solid black;
-  width: 1040px;
-}
-
-.header-cards-seeds {  
-  border-bottom: 2px solid black;
-  width: 100%;
-}
-
-.seeds-cards {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  flex-direction: row;
-}
-
-.inner-seeds-1 {
-  background-image: url(../img-2/corn_mini.png);
-  background-repeat: no-repeat;
-  width: 250px;
-    height: 355px;
-}
-
-.inner-seeds-4 {
-  display: flex;
-  flex-direction: row;
-}
-
-.cards-services-seeds {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
 
 .img-wrap {
@@ -247,6 +196,12 @@ img {
   border-radius: 10px;
 }
 
+.header-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;    
+}
+
 .footer-container {
   background: linear-gradient(0deg, #000000d6, #242427ac);
   height: 100px;
@@ -272,6 +227,29 @@ img {
 
   /* СТРАНИЦА СЕМЕНА */
 
+.img-seeds-1 {
+  background-image:  url(../img-2/corn.png);
+  width: 570px;
+  height: 805px;
+  background-repeat: no-repeat;
+  z-index: 100;  
+}
+  
+.header-cards-seeds {  
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
+.header-cards-link-seeds {
+  font-size: 64px;
+  color: #2A4903;
+  font-weight: 600;
+}
+
+.h-seeds {
+  margin: 0;  
+}
+
 .cards-wrap-seeds {
   padding-top: 70px;
   width: 100%;
@@ -279,19 +257,84 @@ img {
   flex-direction: row;
 }
 
+.cards-left-seeds {
+  margin: 0;
+  padding: 195px 0 0 0;
+    width: 180px;
+   height: 215px;
+ }
+
+ .img-seeds-2 {
+  background-image:  url(../img-2/pkg.png);
+  background-size: 159px 185px;
+  background-repeat: no-repeat;
+  z-index: 100; 
+}
+
+.cards-right-seeds {
+  margin: 0;
+  width: 800px;
+  height: 350px;
+}
+
+.img-seeds-right-text {
+  margin-top: 0;
+  font-size: 17px;
+}
+
 .cards-wrap-seeds-bottom {
   padding-top: 70px;
   width: 1280px;
 }
 
-.inner-seeds-2 {
-width: 480px;
+.name {
+  font-size: 20px;
+}
+
+.gybrid {
+  padding-right: 20px;
+}
+
+.specs {
+  padding-right: 20px;
+}
+
+.sids-silos {
+  padding-right: 20px;
+}
+
+.fao {
+  padding-right: 20px;
 }
 
 .seeds-type {
   font-size: 30px;
   font-weight: 600;
   color: #529934;
+}
+
+.cards-services-seeds {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.seeds-cards {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-seeds-1 {
+  background-image: url(../img-2/corn_mini.png);
+  background-repeat: no-repeat;
+  width: 250px;
+    height: 355px;
+}
+
+.inner-seeds-2 {
+  width: 480px;
 }
 
 .inner-seeds-3 {
@@ -302,6 +345,37 @@ width: 480px;
   align-items: left;
   text-align: left;
 }
+
+.inner-seeds-4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.seeds-list-left {
+  list-style: inside;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  .header-cards {  
+    border-bottom: 2px solid black;
+    width: 1040px;
+  }
 
 .seeds-svg-corn {
   width: 52px;
@@ -315,47 +389,6 @@ width: 480px;
 .seeds-svg-180 {
   width: 52px;
   height: 72px;
-}
-
-.seeds-list-left {
-  list-style: inside;
-}
-
-.img-seeds-1 {
-  background-image:  url(../img-2/corn.png);
-  width: 570px;
-  height: 805px;
-  background-repeat: no-repeat;
-  z-index: 100;
-  
-}
-
-.cards-left-seeds {
- margin: 0;
- padding: 195px 0 0 0;
-   width: 180px;
-  height: 215px;
-}
-
-.cards-right-seeds {
-  margin: 0;
-  width: 800px;
-  height: 350px;
-}
-
-.img-seeds-2 {
-  background-image:  url(../img-2/pkg.png);
-  background-size: 159px 185px;
-
-  background-repeat: no-repeat;
-  z-index: 100; 
-}
-
-
-
-.img-seeds-right-text {
-  margin-top: 0;
-  font-size: 17px;
 }
 
 .right-block-seeds {
@@ -399,3 +432,47 @@ width: 480px;
     padding-left: 428px;
   }
 } */
+
+.slider-wrap {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.headers-service {
+  width: 955px;
+  margin: 0 auto;
+  min-height: 230px;
+  max-height: 1000px;
+}
+
+.text-header {
+  font-size: 40px;
+  color: #A0BC2A;
+  font-weight: 500;
+}
+
+.text2-service {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.list-wrap-service {
+  width: 955px;
+  margin: 0 auto;
+  min-height: 230px;
+  max-height: 1000px;
+}
+
+.service-list {
+  list-style: inside; 
+}
+
+.list-heder-service {
+  font-size: 40px;
+  color: #529934;
+}
+
+.service-list-item {
+  font-size: 20px;
+}
