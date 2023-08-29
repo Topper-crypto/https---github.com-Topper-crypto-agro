@@ -19,9 +19,9 @@ a {
   cursor: pointer;
 }
 
-img {
+/* img {
   max-width: 100%;
-}
+} */
 
 .container-m {
   max-width: 99%;
@@ -355,7 +355,10 @@ img {
   list-style: inside;
 }
 
-
+.fit {
+  
+  object-fit: cover;	
+}
 
 
 
