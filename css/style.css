@@ -569,9 +569,23 @@ color: #5E6A6D;
 } */
 
 .slider-wrap {
-  width: 90%;
-  height: 600px;
+  width: 98vw;
   
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.swiper-container {
+  margin-left: 0px;
+  margin-right: 5px;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  width: 98vw;
+  padding: 0;
+  z-index: 1;
+  object-fit: cover;
+
 }
 
 .headers-service {
