@@ -437,11 +437,66 @@ a {
 
 
 .inner-seeds-1 {
-  background-image: url(../img-2/corn/anovi.png);
   background-size: 220px 180px;
   background-repeat: no-repeat;
   width: 220px;
   margin-right: 10px;
+}
+
+.anovi {
+  background-image: url(../img-2/corn/anovi.png);
+}
+
+.delfin {
+  background-image: url(../img-2/corn/delfin.png);
+}
+
+.sirriys {
+  background-image: url(../img-2/corn/sirriys.png);
+}
+
+.evrostar {
+  background-image: url(../img-2/corn/evrostar.png);
+}
+
+.midgard {
+  background-image: url(../img-2/corn/midgard.png);
+}
+
+.apilog {
+  background-image: url(../img-2/corn/apilog.png);
+}
+
+.bombastik {
+  background-image: url(../img-2/corn/bombastik.png);
+}
+
+.habbl {
+  background-image: url(../img-2/corn/habbl.png);
+}
+
+.grigri {
+  background-image: url(../img-2/corn/grigri.png);
+}
+
+.kreativ {
+  background-image: url(../img-2/corn/kreativ.png);
+}
+
+.konstelans {
+  background-image: url(../img-2/corn/konstelans.png);
+}
+
+.parolli {
+  background-image: url(../img-2/corn/parolli.png);
+}
+
+.bond {
+  background-image: url(../img-2/corn/bond.png);
+}
+
+.asteroid {
+  background-image: url(../img-2/corn/asteroid.png);
 }
 
 .inner-seeds-2 {
@@ -493,17 +548,14 @@ a {
   list-style: inside;
 }
 
-.fit {
-  
+.fit {  
   object-fit: cover;	
 }
 
-
-  
-  .header-cards {  
-    border-bottom: 2px solid black;
-    width: 1040px;
-  }
+.header-cards {  
+  border-bottom: 2px solid black;
+  width: 1040px;
+}
 
 .seeds-svg-corn {
   width: 52px;
