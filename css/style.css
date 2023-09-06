@@ -324,7 +324,7 @@ a {
 }
 
 .img-seeds-soya {
-  background-image:  url(../img-2/soya-t.png);
+  background-image:  url(../img-2/soy-t.png);
   width: 570px;
   height: 805px;
   background-repeat: no-repeat;
@@ -519,56 +519,72 @@ a {
   background-image: url(../img-2/sunflower/dolchevita.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.savvana {
+  background-image: url(../img-2/sunflower/savvana.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.arkadiya {
+  background-image: url(../img-2/sunflower/arkadiya.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.agora {
+  background-image: url(../img-2/sunflower/agora.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.regata {
+  background-image: url(../img-2/sunflower/regata.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.novamis {
+  background-image: url(../img-2/sunflower/novamis.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.yanis {
+  background-image: url(../img-2/sunflower/yanis.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.izida {
+  background-image: url(../img-2/sunflower/izida.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.belfis {
+  background-image: url(../img-2/sunflower/belfis.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.oazis {
+  background-image: url(../img-2/sunflower/oazis.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.donatela {
+  background-image: url(../img-2/sunflower/donatela.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.generalis {
+  background-image: url(../img-2/sunflower/generalis.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.argentik {
+  background-image: url(../img-2/sunflower/argentik.png);
 }
 
-.dolchevita {
-  background-image: url(../img-2/sunflower/dolchevita.png);
+.kollektor {
+  background-image: url(../img-2/soy/kollektor.png);
+}
+
+.kollektor {
+  background-image: url(../img-2/soy/kollektor.png);
+}
+
+.kollektor {
+  background-image: url(../img-2/soy/kollektor.png);
+}
+
+.kollektor {
+  background-image: url(../img-2/soy/kollektor.png);
+}
+
+.kollektor {
+  background-image: url(../img-2/soy/kollektor.png);
 }
 
 .inner-seeds-2 {
@@ -699,7 +715,7 @@ color: #5E6A6D;
   overflow: hidden;
 }
 
-.swiper-container {
+/* .swiper-container {
   margin-left: 0px;
   margin-right: 5px;
   position: relative;
@@ -710,6 +726,11 @@ color: #5E6A6D;
   z-index: 1;
   object-fit: cover;
 
+} */
+
+.swiper {
+  max-width: 1000px;
+  object-fit: cover;
 }
 
 .headers-service {
