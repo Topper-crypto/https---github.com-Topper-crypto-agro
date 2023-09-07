@@ -286,11 +286,11 @@ a {
 }
 
 .seeds-img-3 {
-  background-image:  url(../img-2/lucern-png.png);
+  background-image:  url(../img-2/raps-png.png);
 }
 
 .seeds-img-4 {
-  background-image:  url(../img-2/raps-png.png);
+  background-image:  url(../img-2/soya-png.png);
 }
 
 .seeds-img-5 {
@@ -298,7 +298,7 @@ a {
 }
 
 .seeds-img-6 {
-  background-image:  url(../img-2/soya-png.png);
+  background-image:  url(../img-2/alfalfa-png.png);
 }
 
 .header-item-seeds-tab {
@@ -333,7 +333,31 @@ a {
 }
 
 .img-seeds-raps {
-  background-image:  url(../img-2/goroh-t.png);
+  background-image:  url(../img-2/rapeseed-t.png);
+  width: 570px;
+  height: 805px;
+  background-repeat: no-repeat;
+  z-index: 100; 
+}
+
+.img-seeds-alfalfa {
+  background-image:  url(../img-2/alfalfa-t.png);
+  width: 570px;
+  height: 805px;
+  background-repeat: no-repeat;
+  z-index: 100; 
+}
+
+.img-seeds-sorghum {
+  background-image:  url(../img-2/sorghum-t.png);
+  width: 570px;
+  height: 805px;
+  background-repeat: no-repeat;
+  z-index: 100; 
+}
+
+.img-seeds-lidea {
+  background-image:  url(../img-2/lidea-t.png);
   width: 570px;
   height: 805px;
   background-repeat: no-repeat;
@@ -586,6 +610,58 @@ a {
 
 .navigator {
   background-image: url(../img-2/soy/navigator.png);
+}
+
+.darko {
+  background-image: url(../img-2/rapeseed/darko.png);
+}
+
+.gidromel {
+  background-image: url(../img-2/rapeseed/gidromel.png);
+}
+
+.neptyn {
+  background-image: url(../img-2/rapeseed/neptyn.png);
+}
+
+.merkur {
+  background-image: url(../img-2/rapeseed/merkur.png);
+}
+
+.rahel {
+  background-image: url(../img-2/alfalfa/rahel.png);
+}
+
+.arabesk {
+  background-image: url(../img-2/sorghum/arabesk.png);
+}
+
+.arski {
+  background-image: url(../img-2/sorghum/arski.png);
+}
+
+.albanys {
+  background-image: url(../img-2/sorghum/albanys.png);
+}
+
+.villi {
+  background-image: url(../img-2/sorghum/villi.png);
+}
+
+.arkan {
+  background-image: url(../img-2/sorghum/arkan.png);
+}
+
+.kalatyr {
+  background-image: url(../img-2/sorghum/kalatyr.png);
+}
+
+.giperion {
+  background-image: url(../img-2/sorghum/giperion.png);
+}
+
+.armattan {
+  background-image: url(../img-2/sorghum/armattan.png);
 }
 
 .inner-seeds-2 {
