@@ -711,8 +711,7 @@ color: #5E6A6D;
 .slider-wrap {
   width: 98vw;
   
-  object-fit: cover;
-  overflow: hidden;
+ 
 }
 
 /* .swiper-container {
@@ -729,8 +728,15 @@ color: #5E6A6D;
 } */
 
 .swiper {
-  max-width: 1000px;
+ max-width: 1000px;
+ height: auto;
+}
+
+
+.fit {
+  overflow: hidden;
   object-fit: cover;
+  max-width: 1000px;
 }
 
 .headers-service {
