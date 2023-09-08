@@ -877,3 +877,7 @@ color: #5E6A6D;
 .up-button:hover {
   opacity: 1;
 }
+
+.header-cards-seeds-wip {
+  background-image: url(../img-2/wip.gif);
+}
