@@ -19,6 +19,10 @@ a {
   cursor: pointer;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* img {
   max-width: 100%;
 } */
@@ -28,7 +32,7 @@ a {
   padding: 5px;
   margin: 0 auto;
   background-color: #F0F0F0;
-}
+  }
 
   /* Главная страница */
 
@@ -855,48 +859,21 @@ color: #5E6A6D;
 }
 
 
-body {
-  min-height: 2000px;
+.up-img {
+  width: 25px;
 }
 
-#up {
-  display: block;
-  background-color: transparent;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  background-color: #bbb;
-  text-align: center;
+.up-button {
   position: fixed;
-  bottom: 20px;
-  left: 90vw;
-  opacity: 1;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  z-index: 8000;
- /*  cursor: pointer; */
-}
-
-#up:before {
-  content: '↑';
-  font-family: sans-serif;
-  font-size: 30px;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-#up.show {
-  opacity: 0.5;
-}
-.upp {
+  bottom: 105px;
+  right: 28px;
+  width: 15px;
+  z-index: 9;
   cursor: pointer;
+  opacity: 0.2;
   z-index: 9000;
 }
-#up.show:hover {
+
+.up-button:hover {
   opacity: 1;
 }
