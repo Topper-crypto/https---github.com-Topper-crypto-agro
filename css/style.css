@@ -127,7 +127,6 @@ html {
 .breadcrumb-list {
   display: flex;
   align-items: center;
-  padding-left: 483px;  
 }
 
 .cards-wrap-all {
@@ -241,12 +240,59 @@ html {
 
 .text-seeds-tab {
   font-size: 25px;
+  color: #515b60;
 }
 
 .cards-wrap-seeds-tab {
   max-width: 1038px;
   border-top: 2px solid black;
   padding-top: 20px;
+}
+
+.text-header-production {
+  font-size: 40px;
+  color: #A0BC2A;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.cards-wrap-production {
+  border-top: 2px solid black;
+  margin: 0 auto;
+  width: 1500px;
+}
+
+.cards-wrap-production1 {
+  margin: 0 auto;
+  width: 1500px;
+}
+
+.list-production {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.list-link:before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  outline: 1px solid var(--orange);
+  outline-offset: 8px;
+  opacity: 0;
+}
+
+.item-production:not(:nth-child(2n)) {
+  margin-right: 23px;
+}
+
+.item-production {
+  
 }
 
 .cards-seeds-tab {
@@ -264,12 +310,11 @@ html {
   padding: 48px 10px 80px 180px;
   width: 460px;
   height: 230px;
-  background-position: 0px 50px;
+  background-position: 0px 25px;
   background-repeat: no-repeat;
-  background-size: 140px 140px;
+  background-size: 170px 170px;
   z-index: 100;
   border-radius: 10px;
-  /* outline: 2px solid black; */
 }
 
 .cards-item-seeds-tab {
@@ -371,6 +416,15 @@ html {
 .header-cards-seeds {  
   border-bottom: 2px solid black;
   width: 100%;
+  display: flex;
+}
+
+.header-cards-seeds2 {  
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-cards-link-seeds {
@@ -385,7 +439,7 @@ html {
 
 .cards-wrap-seeds {
   padding-top: 70px;
-  width: 70%;
+  max-width: fit-content;
   display: flex;
   flex-direction: row;
 }
@@ -405,13 +459,20 @@ html {
 }
 
 .cards-right-seeds {
-  width: 70%;
-  height: 350px;
+  width: 77%;
 }
 
 .img-seeds-right-text {
   margin-top: 0;
-  font-size: 17px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #434B4F; 
+  text-align: justify;
+}
+
+.seeds-right-text {
+  color: #434B4F;
+  font-size: 35px;
 }
 
 .cards-wrap-seeds-bottom {
@@ -426,19 +487,21 @@ html {
 }
 
 .gybrid {
-  padding-right: 20px;
+  text-align: center;
+  margin-right: 310px;
 }
 
 .specs {
-  padding-right: 20px;
+  margin-right: 120px;
 }
 
 .sids-silos {
-  padding-right: 20px;
+  height: 70px;
+  width: 100px;
 }
 
 .fao {
-  padding-right: 20px;
+  text-align: center;
 }
 
 .seeds-type {
@@ -880,4 +943,17 @@ color: #5E6A6D;
 
 .header-cards-seeds-wip {
   background-image: url(../img-2/wip.gif);
+  width: 530px;
+  height: 320px;
+}
+
+.grey {
+  background-color: #E3E3E3;
+}
+
+.text-underc {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 300;
 }
