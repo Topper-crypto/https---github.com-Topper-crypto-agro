@@ -30,11 +30,13 @@ try {
 
     // Настройки вашей почты
     $mail->Host       = 'ssl://smtp.yandex.ru'; // SMTP сервера вашей почты
-    $mail->Username   = 'korovin80@att-rzn.ru'; // Логин на почте
-    $mail->Password   = '@ttr1980'; // Пароль на почте
+    $mail->Username   = 'test@td-minkom.ru'; // Логин на почте
+    // 4uOLbrZJZQ5BuiuS0B
+    
+    $mail->Password   = 'cgpjpwddowowpfll'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('korovin80@att-rzn.ru', 'korovin80'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('test@td-minkom.ru', 'korovin80'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
     $mail->addAddress('korovin80@yandex.ru');  

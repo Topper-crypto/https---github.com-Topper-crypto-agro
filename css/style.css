@@ -282,17 +282,13 @@ html {
   right: 0;
   bottom: 0;
   position: absolute;
-  outline: 1px solid var(--orange);
+  /* outline: 1px solid var(--orange); */
   outline-offset: 8px;
   opacity: 0;
 }
 
 .item-production:not(:nth-child(2n)) {
   margin-right: 23px;
-}
-
-.item-production {
-  
 }
 
 .cards-seeds-tab {
@@ -357,16 +353,16 @@ html {
   margin: 0;
 }
 
-.img-seeds-1 {
-  background-image:  url(../img-2/corn.png);
+.img-seeds-1 {  
+  background-image:  url(../img-2/corn/corn-t.png);
   width: 570px;
   height: 805px;
   background-repeat: no-repeat;
   z-index: 100;  
 }
-  
+
 .img-seeds-podsolnuh {
-  background-image:  url(../img-2/podsolnuh-t.png);
+  background-image:  url(../img-2/sunflower/sunflower-t.png);
   width: 570px;
   height: 805px;
   background-repeat: no-repeat;
@@ -374,7 +370,7 @@ html {
 }
 
 .img-seeds-soya {
-  background-image:  url(../img-2/soy-t.png);
+  background-image:  url(../img-2/soy/soy-t.png);
   width: 570px;
   height: 805px;
   background-repeat: no-repeat;
@@ -382,7 +378,7 @@ html {
 }
 
 .img-seeds-raps {
-  background-image:  url(../img-2/rapeseed-t.png);
+  background-image:  url(../img-2/rapeseed/rapeseed-t.png);
   width: 570px;
   height: 805px;
   background-repeat: no-repeat;
@@ -390,7 +386,7 @@ html {
 }
 
 .img-seeds-alfalfa {
-  background-image:  url(../img-2/alfalfa-t.png);
+  background-image:  url(../img-2/alfalfa/alfalfa-t.png);
   width: 570px;
   height: 805px;
   background-repeat: no-repeat;
@@ -398,7 +394,7 @@ html {
 }
 
 .img-seeds-sorghum {
-  background-image:  url(../img-2/sorghum-t.png);
+  background-image:  url(../img-2/sorghum/sorghum-t.png);
   width: 570px;
   height: 805px;
   background-repeat: no-repeat;
@@ -452,10 +448,33 @@ html {
  }
 
  .img-seeds-2 {
-  background-image:  url(../img-2/pkg.png);
   background-size: 159px 185px;
   background-repeat: no-repeat;
   z-index: 100; 
+}
+
+.seeds-corn {
+  background-image:  url(../img-2/corn/corn.png);
+}
+
+.seeds-sunflower {
+  background-image:  url(../img-2/sunflower/sunflower.png);
+}
+
+.seeds-rapeseed {
+  background-image:  url(../img-2/rapeseed/rapeseed.png);
+}
+
+.seeds-soy {
+  background-image:  url(../img-2/soy/soy.png);
+}
+
+.seeds-sorghum {
+  background-image:  url(../img-2/sorghum/sorghum.png);
+}
+
+.seeds-alfalfa {
+  background-image:  url(../img-2/alfalfa/alfalfa.png);
 }
 
 .cards-right-seeds {
@@ -904,12 +923,15 @@ color: #5E6A6D;
 .list-wrap-service {
   width: 955px;
   margin: 0 auto;
-  min-height: 230px;
   max-height: 1000px;
 }
 
 .service-list {
   list-style: inside; 
+}
+
+.mr {
+  margin-bottom: 20px;
 }
 
 .list-heder-service {
