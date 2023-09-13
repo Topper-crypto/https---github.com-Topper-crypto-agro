@@ -494,11 +494,6 @@ html {
   font-size: 35px;
 }
 
-.cards-wrap-seeds-bottom {
-  padding-top: 70px;
-  width: 1280px;
-}
-
 .name {
   font-size: 30px;
   font-weight: 500;
@@ -523,12 +518,6 @@ html {
   text-align: center;
 }
 
-.seeds-type {
-  font-size: 30px;
-  font-weight: 600;
-  color: #529934;
-}
-
 .cards-services-seeds {
   display: flex;
   flex-wrap: wrap;
@@ -537,21 +526,6 @@ html {
 
 .cards-item-seeds {
   margin: 15px 0;
-}
-
-.seeds-cards {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  flex-direction: row;
-}
-
-
-.inner-seeds-1 {
-  background-size: 220px 180px;
-  background-repeat: no-repeat;
-  width: 220px;
-  margin-right: 10px;
 }
 
 .anovi {
@@ -750,51 +724,6 @@ html {
   background-image: url(../img-2/sorghum/armattan.png);
 }
 
-.inner-seeds-2 {
-  width: 450px;
-  justify-content: center;
-  align-items: center;
-}
-
-.inner-seeds-3 {
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-}
-
-.inner-seeds-4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.inner-seeds-5 {
-  text-align: center;
-  display: block;
-  padding: 80px 30px;
-}
-
-.seeds-h {
-  font-size: 30px;
-  font-weight: 600;
-  color: #5E6A6D;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  display: inline-block;
-}
-
-.stars {
-  width: 25px;
-}
-
-.seedscard-text {
-  font-size: 20px;
-  color: #5E6A6D;
-}
-
 .seeds-list-left {
   list-style: inside;
 }
@@ -839,7 +768,243 @@ color: #5E6A6D;
   color: white;
 }
 
+  /* ТЕКСТ в ТАБЛИЦЕ семян*/
 
+.cards-text1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.15;
+  color: #5E6A6D;  
+}
+
+.seeds-type {
+  font-size: 30px;
+  font-weight: 600;
+  color: #529934;
+}
+
+.cards-text2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #5E6A6D;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.stars {
+  width: 25px;
+}
+
+.cards-text3 {
+  font-size: 20px;
+  color: #5E6A6D;
+  line-height: 1;
+}
+
+.cards-text4 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #5E6A6D;
+}
+
+.pl {
+  padding-left: 10px;
+}
+/* РАЗМЕРЫ БЛОКОВ В ПОДСОЛНУХАХ */
+
+.cards-wrap-seeds-bottom {
+  padding-top: 70px;
+  width: 1280px;
+}
+
+.seeds-cards {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+}
+
+.inner-sunflower-1 {
+  background-size: 220px 180px;
+  background-repeat: no-repeat;
+}
+
+.inner-sunflower-2 {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;      
+}
+
+.inner-sunflower-3 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;  
+}
+
+.cards-centr {
+  text-align: center;
+}
+
+.cards-wh-1 {
+  width: 230px;
+}
+
+.cards-wh-2 { 
+  width: 405px;
+}
+
+.cards-wh-3 {
+  width: 300px;
+}
+
+.cards-wh-4 {
+  width: 135px;
+}
+
+.cards-wh-5 {
+  width: 210px;
+}
+
+.cards-wh-6 {
+  width: 635px;
+}
+
+/* РАЗМЕРЫ БЛОКОВ В РАПС */
+
+.inner-rapeseed-1 {
+  background-size: 220px 180px;
+  background-repeat: no-repeat;
+}
+
+.inner-rapeseed-2 {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;      
+}
+
+.inner-rapeseed-3 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;  
+}
+
+/* РАЗМЕРЫ БЛОКОВ В ЛЮЦЕРНА */
+
+.inner-alfalfa-1 {
+  background-size: 220px 180px;
+  background-repeat: no-repeat;
+}
+
+.inner-alfalfa-2 {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;      
+}
+
+.inner-alfalfa-3 {
+  display: flex;
+  flex-direction: column;  
+}
+
+.cards-centr {
+  text-align: center;
+}
+
+.cards-alfalfa-wh-1 {
+  width: 230px;
+}
+
+.cards-alfalfa-wh-2 {
+  width: 400px;
+}
+
+.cards-alfalfa-wh-3 {
+  width: 340px;
+}
+
+.cards-alfalfa-wh-4 {
+  width: 300px;
+}
+
+.cards-alfalfa-wh-5 {
+  width: 630px;
+}
+
+/* РАЗМЕРЫ БЛОКОВ В СОРГО */
+
+.inner-sorghum-1 {
+  background-size: 220px 180px;
+  background-repeat: no-repeat;
+}
+
+.inner-sorghum-2 {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;      
+}
+
+.inner-sorghum-3 {
+  display: flex;
+  flex-direction: column;  
+}
+
+.cards-centr {
+  text-align: center;
+}
+
+.cards-sorghum-wh-1 {
+  width: 230px;
+}
+
+.cards-sorghum-wh-2 {
+  width: 400px;
+}
+
+.cards-sorghum-wh-3 {
+  width: 340px;
+}
+
+.cards-sorghum-wh-4 {
+  width: 300px;
+}
+
+.cards-sorghum-wh-5 {
+  width: 630px;
+}
+
+/* РАЗМЕРЫ БЛОКОВ*/
+.inner-seeds-1 {
+  background-size: 220px 180px;
+  background-repeat: no-repeat;
+  width: 220px;
+  margin-right: 10px;
+}
+
+.inner-seeds-2 {
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-seeds-3 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.inner-seeds-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-seeds-5 {
+  text-align: center;
+  display: block;
+  padding: 80px 30px;
+}
 
 /* <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -851,25 +1016,7 @@ color: #5E6A6D;
 </style>
 */
 
-  /* АДАПТИВ */
-/* 
-@media(max-width: 3940px)
-{
-.breadcrumb-list {
-    display: flex;
-    align-items: center;
-    padding-left: 1425px;
-  }
-}
 
-@media(max-width: 1920px)
-{
-.breadcrumb-list {
-    display: flex;
-    align-items: center;
-    padding-left: 428px;
-  }
-} */
 
 .slider-wrap {
   width: 98vw;
@@ -980,7 +1127,6 @@ color: #5E6A6D;
   font-weight: 300;
 }
 
-
 .form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -994,7 +1140,6 @@ color: #5E6A6D;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
 
 .modal__overlay {
   position: fixed;
@@ -1079,3 +1224,60 @@ color: #5E6A6D;
   line-height: 15px;
   color: #E0E0E0;
 }
+
+  /* АДАПТИВ */
+/* 
+@media(max-width: 3940px)
+{
+.breadcrumb-list {
+    display: flex;
+    align-items: center;
+    padding-left: 1425px;
+  }
+}
+
+@media(max-width: 1920px)
+{
+.breadcrumb-list {
+    display: flex;
+    align-items: center;
+    padding-left: 428px;
+  }
+} 
+
+@media(max-width: 1200px)
+{
+.breadcrumb-list {
+    display: flex;
+    align-items: center;
+    padding-left: 428px;
+  }
+} 
+
+@media(max-width: 1024px)
+{
+.breadcrumb-list {
+    display: flex;
+    align-items: center;
+    padding-left: 428px;
+  }
+} 
+
+@media(max-width: 768px)
+{
+.breadcrumb-list {
+    display: flex;
+    align-items: center;
+    padding-left: 428px;
+  }
+} 
+
+@media(max-width: 420px)
+{
+.breadcrumb-list {
+    display: flex;
+    align-items: center;
+    padding-left: 428px;
+  }
+} 
+*/
