@@ -810,6 +810,71 @@ color: #5E6A6D;
 .pl {
   padding-left: 10px;
 }
+
+/* РАЗМЕРЫ БЛОКОВ В КУКУРУЗА */
+
+.cards-wrap-seeds-bottom {
+  padding-top: 70px;
+  width: 1280px;
+}
+
+.seeds-cards {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+}
+
+.inner-corn-1 {
+  background-size: 220px 180px;
+  background-repeat: no-repeat;
+}
+
+.inner-corn-2 {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;      
+}
+
+.inner-corn-3 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;  
+}
+
+.inner-corn-4 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.cards-centr {
+  text-align: center;
+}
+
+.cards-corn-wh-1 {
+  width: 230px;
+}
+
+.cards-corn-wh-2 { 
+  width: 460px;
+}
+
+.cards-corn-wh-3 {
+  width: 400px;
+}
+
+.cards-corn-wh-4 {
+  width: 120px;
+}
+
+.cards-corn-wh-5 {
+  width: 70px;
+}
+
+.cards-corn-wh-6 {
+  width: 690px;
+}
+
 /* РАЗМЕРЫ БЛОКОВ В ПОДСОЛНУХАХ */
 
 .cards-wrap-seeds-bottom {
@@ -838,10 +903,6 @@ color: #5E6A6D;
   justify-content: center;
   display: flex;
   flex-direction: column;  
-}
-
-.cards-centr {
-  text-align: center;
 }
 
 .cards-wh-1 {
@@ -887,6 +948,30 @@ color: #5E6A6D;
   flex-direction: column;  
 }
 
+.cards-rapeseed-wh-1 {
+  width: 230px;
+}
+
+.cards-rapeseed-wh-2 { 
+  width: 310px;
+}
+
+.cards-rapeseed-wh-3 {
+  width: 350px;
+}
+
+.cards-rapeseed-wh-4 {
+  width: 120px;
+}
+
+.cards-rapeseed-wh-5 {
+  width: 270px;
+}
+
+.cards-rapeseed-wh-6 {
+  width: 540px;
+}
+
 /* РАЗМЕРЫ БЛОКОВ В ЛЮЦЕРНА */
 
 .inner-alfalfa-1 {
@@ -903,10 +988,6 @@ color: #5E6A6D;
 .inner-alfalfa-3 {
   display: flex;
   flex-direction: column;  
-}
-
-.cards-centr {
-  text-align: center;
 }
 
 .cards-alfalfa-wh-1 {
@@ -947,28 +1028,67 @@ color: #5E6A6D;
   flex-direction: column;  
 }
 
-.cards-centr {
-  text-align: center;
-}
-
 .cards-sorghum-wh-1 {
   width: 230px;
 }
 
 .cards-sorghum-wh-2 {
-  width: 400px;
+  width: 370px;
 }
 
 .cards-sorghum-wh-3 {
-  width: 340px;
+  width: 435px;
 }
 
 .cards-sorghum-wh-4 {
-  width: 300px;
+  /* width: 300px; */
+  width: 245px;
 }
 
 .cards-sorghum-wh-5 {
   width: 630px;
+}
+
+/* РАЗМЕРЫ БЛОКОВ В СОЯ */
+
+.inner-soy-1 {
+  background-size: 220px 180px;
+  background-repeat: no-repeat;
+}
+
+.inner-soy-2 {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;      
+}
+
+.inner-soy-3 {
+  display: flex;
+  flex-direction: column;  
+}
+
+.cards-soy-wh-1 {
+  width: 230px;
+}
+
+.cards-soy-wh-2 {
+  width: 300px;
+}
+
+.cards-soy-wh-3 {
+  width: 300px;
+}
+
+.cards-soy-wh-4 {
+  width: 215px;
+}
+
+.cards-soy-wh-5 {
+  width: 215px;
+}
+
+.cards-soy-wh-6 {
+  width: 530px;
 }
 
 /* РАЗМЕРЫ БЛОКОВ*/
@@ -1287,9 +1407,8 @@ color: #5E6A6D;
   }
 
 .addres {
-    font-size: 22px;
+  font-size: 22px;
 }
-
 
 .footer-container {
   background: linear-gradient(0deg, #000000d6, #242427ac);
@@ -1299,11 +1418,11 @@ color: #5E6A6D;
   font-size: 25px;
   }
 
-  .nav-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
 .nav-list--item {
@@ -1324,7 +1443,6 @@ color: #5E6A6D;
   justify-content: center;
 }
 
-
 .hero-a {
   display: none;
   background-image: url(../img-2/A.svg);
@@ -1340,7 +1458,6 @@ color: #5E6A6D;
   color: #2A4903;
 }
 
-
 .container-text {
   display: flex;
   align-items: center;
@@ -1349,7 +1466,6 @@ color: #5E6A6D;
   width: 405px;
 
 }
-
 
 .cards-wrap-all {
   display: flex;
