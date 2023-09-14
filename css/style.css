@@ -28,7 +28,7 @@ html {
 } */
 
 .container-m {
-  max-width: 99%;
+  width: 98vw;
   padding: 5px;
   margin: 0 auto;
   background-color: #F0F0F0;
@@ -74,7 +74,7 @@ html {
   background-image: url(../img-2/hero-man.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 100%;
+  width: 98vw;
   min-height: 500px;
   margin-bottom: 50px;
   padding: 120px 0px 0px 900px;
@@ -85,7 +85,6 @@ html {
 
 .container-text {
   display: flex;
-  flex-direction: row;
   height: 460px;
   width: 890px;
 }
@@ -136,7 +135,7 @@ html {
 }
 
 .cards-wrap {
-  max-width: 1038px;
+  width: 1038px;
   border-top: 2px solid black;
   padding-top: 20px;
 }
@@ -1271,13 +1270,145 @@ color: #5E6A6D;
     padding-left: 428px;
   }
 } 
+} 
+*/
 
 @media(max-width: 420px)
 {
-.breadcrumb-list {
-    display: flex;
-    align-items: center;
-    padding-left: 428px;
+.header-top {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  height: 270px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 15px solid green;
+  border-bottom: 15px solid orange;
   }
-} 
-*/
+
+.addres {
+    font-size: 22px;
+}
+
+
+.footer-container {
+  background: linear-gradient(0deg, #000000d6, #242427ac);
+  height: 270px;
+  width: 95vw;
+  padding-top: 15px; 
+  font-size: 25px;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-list--item {
+  padding:0 0 15px 0;
+  color: yellowgreen;
+}
+
+.hero-container {
+  background-image: url(../img-2/hero-cut.png);
+  background-repeat: no-repeat;
+  background-size: 410px 500px;
+  width: 98vw;
+  min-height: 500px;
+  margin-bottom: 50px;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.hero-a {
+  display: none;
+  background-image: url(../img-2/A.svg);
+  background-repeat: no-repeat;
+  width: 850px;
+  height: 500px;
+}
+
+.hero-text {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 600;
+  color: #2A4903;
+}
+
+
+.container-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 460px;
+  width: 405px;
+
+}
+
+
+.cards-wrap-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-1 {
+  background-image: url(../img-2/seeds.png);
+  width: 400px;
+  height: 320px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.img-2 {
+  background-image: url(../img-2/deff.png);
+  width: 400px;
+  height: 320px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  background-position: top left;
+  border-radius: 10px;
+}
+
+.img-3 {
+  background-image: url(../img-2/micro.png);
+  width: 400px;
+  height: 320px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  overflow-x: visible;
+  border-radius: 10px;
+}
+
+.img-4 {
+  background-image: url(../img-2/service.png);
+  width: 400px;
+  height: 320px;
+  background-repeat: no-repeat;
+  z-index: 100;
+  overflow-x: visible;
+  border-radius: 10px;
+}
+
+.cards-services {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* width: 1080px; */
+}
+
+.cards-wrap {
+  width: 410px;
+  border-top: 2px solid black;
+  padding-top: 20px;
+}
+
+}
+
