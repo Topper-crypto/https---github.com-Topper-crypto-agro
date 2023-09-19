@@ -162,11 +162,20 @@ html {
   align-items: center;
 }
 
+.margin-bottom {
+  margin-bottom: 50px;
+}
+
 .cards-wrap-all {
   display: flex;
   /* width: 1760px; */
   align-items: center;
   justify-content: center;
+}
+
+.cards-wrap-all-seeds {
+  width: 1280px;
+  margin: 0 auto;
 }
 
 .cards-wrap {
@@ -846,16 +855,23 @@ color: #5E6A6D;
   padding-left: 10px;
 }
 
+.visible {
+  display: none;
+}
+
 /* РАЗМЕРЫ БЛОКОВ В КУКУРУЗА */
 
 .cards-wrap-seeds-bottom {
-  padding-top: 70px;
-  width: 1280px;
+  width: 100%;
+}
+
+.header-cards-seeds2 {
+  display: flex;
 }
 
 .seeds-cards {
   width: 100%;
-  min-height: 200px;
+  min-height: 160px;
   display: flex;
 }
 
@@ -911,17 +927,6 @@ color: #5E6A6D;
 }
 
 /* РАЗМЕРЫ БЛОКОВ В ПОДСОЛНУХАХ */
-
-.cards-wrap-seeds-bottom {
-  padding-top: 70px;
-  width: 1280px;
-}
-
-.seeds-cards {
-  width: 100%;
-  min-height: 200px;
-  display: flex;
-}
 
 .inner-sunflower-1 {
   background-size: 220px 180px;
@@ -1076,7 +1081,6 @@ color: #5E6A6D;
 }
 
 .cards-sorghum-wh-4 {
-  /* width: 300px; */
   width: 245px;
 }
 
@@ -1569,6 +1573,353 @@ color: #5E6A6D;
     width: 1160px;
   }
   
+.cards-wrap-all-seeds {
+    width: 1180px;  
+  }
+
+  .cards-text1 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .seeds-type {
+    font-size: 25px;
+    font-weight: 600;  
+  }
+  
+  .cards-text2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .stars {
+    width: 20px;
+  }
+  
+  .cards-text3 {
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  .cards-text4 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+.inner-corn-1 {
+    background-size: 200px 160px;
+  }
+
+  .seeds-svg-corn {
+    width: 45px;
+  }
+  .seeds-svg-cow {
+    width: 45px;
+  }
+  
+  .cards-corn-wh-1 {
+    width: 210px;
+  }
+  
+  .cards-corn-wh-2 { 
+    width: 410px;
+  }
+  
+  .cards-corn-wh-3 {
+    width: 370px;
+  }
+  
+  .cards-corn-wh-4 {
+    width: 110px;
+  }
+  
+  .cards-corn-wh-5 {
+    width: 80px;
+  }
+  
+  .cards-corn-wh-6 {
+    width: 620px;
+  }
+
+  .inner-sunflower-1 {
+    background-size: 200px 160px;
+  }
+  
+  .cards-wh-1 {
+    width: 220px;
+  }
+  
+  .cards-wh-2 { 
+    width: 300px;
+  }
+  
+  .cards-wh-3 {
+    width: 310px;
+  }
+  
+  .cards-wh-4 {
+    width: 110px;
+  }
+  
+  .cards-wh-5 {
+    width: 250px;
+  }
+  
+  .cards-wh-6 {
+    width: 520px;
+  }
+
+    /* .inner-soy-1 {
+    background-size: 200px 160px;
+  }
+  
+  .cards-soy-wh-1 {
+    width: 210px;
+  }
+  
+  .cards-soy-wh-2 {
+    width: 280px;
+  }
+  
+  .cards-soy-wh-3 {
+    width: 290px;
+  }
+  
+  .cards-soy-wh-4 {
+    width: 200px;
+  }
+  
+  .cards-soy-wh-5 {
+    width: 200px;
+  }
+  
+  .cards-soy-wh-6 {
+    width: 490px;
+  }
+
+  .inner-sunflower-1 {
+    background-size: 200px 160px;
+  }
+  
+  .cards-wh-1 {
+    width: 230px;
+  }
+  
+  .cards-wh-2 { 
+    width: 405px;
+  }
+  
+  .cards-wh-3 {
+    width: 300px;
+  }
+  
+  .cards-wh-4 {
+    width: 135px;
+  }
+  
+  .cards-wh-5 {
+    width: 210px;
+  }
+  
+  .cards-wh-6 {
+    width: 635px;
+  }
+  
+  .inner-rapeseed-1 {
+    background-size: 200px 160px;
+  }
+  
+  .cards-rapeseed-wh-1 {
+    width: 220px;
+  }
+  
+  .cards-rapeseed-wh-2 { 
+    width: 300px;
+  }
+  
+  .cards-rapeseed-wh-3 {
+    width: 310px;
+  }
+  
+  .cards-rapeseed-wh-4 {
+    width: 110px;
+  }
+  
+  .cards-rapeseed-wh-5 {
+    width: 250px;
+  }
+  
+  .cards-rapeseed-wh-6 {
+    width: 520px;
+  }
+  
+  .inner-alfalfa-1 {
+    background-size: 200px 160px;
+  }
+    
+  .cards-alfalfa-wh-1 {
+    width: 220px;
+  }
+  
+  .cards-alfalfa-wh-2 {
+    width: 400px;
+  }
+  
+  .cards-alfalfa-wh-3 {
+    width: 320px;
+  }
+  
+  .cards-alfalfa-wh-4 {
+    width: 250px;
+  }
+  
+  .cards-alfalfa-wh-5 {
+    width: 620px;
+  }
+  
+  .inner-sorghum-1 {
+    background-size: 200px 160px;
+  }
+  
+  .cards-sorghum-wh-1 {
+    width: 220px;
+  }
+  
+  .cards-sorghum-wh-2 {
+    width: 370px;
+  }
+  
+  .cards-sorghum-wh-3 {
+    width: 380px;
+  }
+  
+  .cards-sorghum-wh-4 {
+    width: 220px;
+  }
+  
+  .cards-sorghum-wh-5 {
+    width: 590px;
+  } */
+
+  
+  .inner-soy-1 {
+    background-size: 220px 180px;
+  }
+  
+  .cards-soy-wh-1 {
+    width: 240px;
+    height: 200px;
+  }
+  
+  .cards-soy-wh-2 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .cards-soy-wh-3 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .cards-soy-wh-4 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .cards-soy-wh-5 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .cards-soy-wh-6 {
+    width: 490px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .inner-rapeseed-1 {
+    background-size: 220px 180px;
+  }
+  
+  .cards-rapeseed-wh-1 {
+    width: 230px;
+  }
+  
+  .cards-rapeseed-wh-2 { 
+    width: 310px;
+  }
+  
+  .cards-rapeseed-wh-3 {
+    width: 350px;
+  }
+  
+  .cards-rapeseed-wh-4 {
+    width: 120px;
+  }
+  
+  .cards-rapeseed-wh-5 {
+    width: 270px;
+  }
+  
+  .cards-rapeseed-wh-6 {
+    width: 540px;
+  }
+  
+  .inner-alfalfa-1 {
+    background-size: 220px 180px;
+  }
+  
+  
+  .cards-alfalfa-wh-1 {
+    width: 230px;
+  }
+  
+  .cards-alfalfa-wh-2 {
+    width: 400px;
+  }
+  
+  .cards-alfalfa-wh-3 {
+    width: 340px;
+  }
+  
+  .cards-alfalfa-wh-4 {
+    width: 300px;
+  }
+  
+  .cards-alfalfa-wh-5 {
+    width: 630px;
+  }
+  
+  .inner-sorghum-1 {
+    background-size: 220px 180px;
+  }
+  
+  .cards-sorghum-wh-1 {
+    width: 230px;
+  }
+  
+  .cards-sorghum-wh-2 {
+    width: 370px;
+  }
+  
+  .cards-sorghum-wh-3 {
+    width: 435px;
+  }
+  
+  .cards-sorghum-wh-4 {
+    width: 245px;
+  }
+  
+  .cards-sorghum-wh-5 {
+    width: 630px;
+  }
+  
   }
 
 @media(max-width: 1024px)
@@ -1802,7 +2153,245 @@ color: #5E6A6D;
   height: 535px;
 }
 
-  }
+.cards-text1 {
+  font-size: 30px;
+}
+
+.seeds-type {
+  font-size: 30px;
+}
+
+.cards-text2 {
+  font-size: 30px;
+}
+
+.stars {
+  width: 25px;
+}
+
+.cards-text3 {
+  font-size: 20px;
+}
+
+.cards-text4 {
+  font-size: 25px;
+}
+
+.seeds-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards-wrap-seeds-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 750px;
+  margin: 0 auto;
+}
+.cards-item-seeds {
+  width: 980px;
+}
+
+.header-cards-seeds2 {
+  display: none;
+}
+
+.visible {
+  display: inline;
+}
+
+
+
+
+/* .inner-corn-1 {
+  background-size: 220px 180px;
+}
+
+.seeds-svg-corn {
+  width: 45px;
+}
+.seeds-svg-cow {
+  width: 45px;
+}
+
+.cards-corn-wh-1 {
+  width: 210px;
+}
+
+.cards-corn-wh-2 { 
+  width: 410px;
+}
+
+.cards-corn-wh-3 {
+  width: 370px;
+}
+
+.cards-corn-wh-4 {
+  width: 110px;
+}
+
+.cards-corn-wh-5 {
+  width: 80px;
+}
+
+.cards-corn-wh-6 {
+  width: 620px;
+}
+
+
+
+
+
+.inner-soy-1 {
+  background-size: 220px 180px;
+}
+
+.cards-soy-wh-1 {
+  width: 240px;
+  height: 200px;
+}
+
+.cards-soy-wh-2 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-soy-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-soy-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-soy-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-soy-wh-6 {
+  width: 490px;
+}
+
+
+
+
+
+
+
+.inner-sunflower-1 {
+  background-size: 220px 180px;
+}
+
+.cards-wh-1 {
+  width: 220px;
+}
+
+.cards-wh-2 { 
+  width: 300px;
+}
+
+.cards-wh-3 {
+  width: 310px;
+}
+
+.cards-wh-4 {
+  width: 110px;
+}
+
+.cards-wh-5 {
+  width: 250px;
+}
+
+.cards-wh-6 {
+  width: 520px;
+}
+
+.inner-rapeseed-1 {
+  background-size: 220px 180px;
+}
+
+.cards-rapeseed-wh-1 {
+  width: 230px;
+}
+
+.cards-rapeseed-wh-2 { 
+  width: 310px;
+}
+
+.cards-rapeseed-wh-3 {
+  width: 350px;
+}
+
+.cards-rapeseed-wh-4 {
+  width: 120px;
+}
+
+.cards-rapeseed-wh-5 {
+  width: 270px;
+}
+
+.cards-rapeseed-wh-6 {
+  width: 540px;
+}
+
+.inner-alfalfa-1 {
+  background-size: 220px 180px;
+}
+
+
+.cards-alfalfa-wh-1 {
+  width: 230px;
+}
+
+.cards-alfalfa-wh-2 {
+  width: 400px;
+}
+
+.cards-alfalfa-wh-3 {
+  width: 340px;
+}
+
+.cards-alfalfa-wh-4 {
+  width: 300px;
+}
+
+.cards-alfalfa-wh-5 {
+  width: 630px;
+}
+
+.inner-sorghum-1 {
+  background-size: 220px 180px;
+}
+
+.cards-sorghum-wh-1 {
+  width: 230px;
+}
+
+.cards-sorghum-wh-2 {
+  width: 370px;
+}
+
+.cards-sorghum-wh-3 {
+  width: 435px;
+}
+
+.cards-sorghum-wh-4 {
+  width: 245px;
+}
+
+.cards-sorghum-wh-5 {
+  width: 630px;
+} */
+
+
+
+
+}
 
 @media(max-width: 768px)
 {
@@ -2068,7 +2657,29 @@ color: #5E6A6D;
   width: 400px;
   height: 535px;
 }
+.cards-text1 {
+  font-size: 30px;
+}
 
+.seeds-type {
+  font-size: 30px;
+}
+
+.cards-text2 {
+  font-size: 30px;
+}
+
+.stars {
+  width: 25px;
+}
+
+.cards-text3 {
+  font-size: 20px;
+}
+
+.cards-text4 {
+  font-size: 25px;
+}
 }
 
 @media(max-width: 420px)
@@ -2368,4 +2979,33 @@ color: #5E6A6D;
   height: 535px;
 }
 
+.modal__dialog {
+  width: 87%;
+  padding: 0px 30px;
+  overflow-y: scroll;
+}
+
+.cards-text1 {
+  font-size: 30px;
+}
+
+.seeds-type {
+  font-size: 30px;
+}
+
+.cards-text2 {
+  font-size: 30px;
+}
+
+.stars {
+  width: 25px;
+}
+
+.cards-text3 {
+  font-size: 20px;
+}
+
+.cards-text4 {
+  font-size: 25px;
+}
 }
