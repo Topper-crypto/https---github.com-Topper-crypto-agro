@@ -1650,26 +1650,54 @@ color: #5E6A6D;
   }
   
   .cards-wh-2 { 
-    width: 300px;
+    width: 345px;
   }
   
   .cards-wh-3 {
-    width: 310px;
+    width: 290px;
   }
   
   .cards-wh-4 {
-    width: 110px;
+    width: 100px;
   }
   
   .cards-wh-5 {
-    width: 250px;
+    width: 225px;
   }
   
   .cards-wh-6 {
+    width: 565px;
+  }
+
+  .inner-rapeseed-1 {
+    background-size: 200px 160px;
+  }
+  
+  .cards-rapeseed-wh-1 {
+    width: 220px;
+  }
+  
+  .cards-rapeseed-wh-2 { 
+    width: 300px;
+  }
+  
+  .cards-rapeseed-wh-3 {
+    width: 300px;
+  }
+  
+  .cards-rapeseed-wh-4 {
+    width: 110px;
+  }
+  
+  .cards-rapeseed-wh-5 {
+    width: 250px;
+  }
+  
+  .cards-rapeseed-wh-6 {
     width: 520px;
   }
 
-    /* .inner-soy-1 {
+  .inner-soy-1 {
     background-size: 200px 160px;
   }
   
@@ -1697,62 +1725,30 @@ color: #5E6A6D;
     width: 490px;
   }
 
-  .inner-sunflower-1 {
+  .inner-sorghum-1 {
     background-size: 200px 160px;
   }
   
-  .cards-wh-1 {
-    width: 230px;
-  }
-  
-  .cards-wh-2 { 
-    width: 405px;
-  }
-  
-  .cards-wh-3 {
-    width: 300px;
-  }
-  
-  .cards-wh-4 {
-    width: 135px;
-  }
-  
-  .cards-wh-5 {
-    width: 210px;
-  }
-  
-  .cards-wh-6 {
-    width: 635px;
-  }
-  
-  .inner-rapeseed-1 {
-    background-size: 200px 160px;
-  }
-  
-  .cards-rapeseed-wh-1 {
+  .cards-sorghum-wh-1 {
     width: 220px;
   }
   
-  .cards-rapeseed-wh-2 { 
-    width: 300px;
+  .cards-sorghum-wh-2 {
+    width: 370px;
   }
   
-  .cards-rapeseed-wh-3 {
-    width: 310px;
+  .cards-sorghum-wh-3 {
+    width: 380px;
   }
   
-  .cards-rapeseed-wh-4 {
-    width: 110px;
+  .cards-sorghum-wh-4 {
+    width: 220px;
   }
   
-  .cards-rapeseed-wh-5 {
-    width: 250px;
+  .cards-sorghum-wh-5 {
+    width: 590px;
   }
-  
-  .cards-rapeseed-wh-6 {
-    width: 520px;
-  }
-  
+
   .inner-alfalfa-1 {
     background-size: 200px 160px;
   }
@@ -1776,150 +1772,7 @@ color: #5E6A6D;
   .cards-alfalfa-wh-5 {
     width: 620px;
   }
-  
-  .inner-sorghum-1 {
-    background-size: 200px 160px;
-  }
-  
-  .cards-sorghum-wh-1 {
-    width: 220px;
-  }
-  
-  .cards-sorghum-wh-2 {
-    width: 370px;
-  }
-  
-  .cards-sorghum-wh-3 {
-    width: 380px;
-  }
-  
-  .cards-sorghum-wh-4 {
-    width: 220px;
-  }
-  
-  .cards-sorghum-wh-5 {
-    width: 590px;
-  } */
 
-  
-  .inner-soy-1 {
-    background-size: 220px 180px;
-  }
-  
-  .cards-soy-wh-1 {
-    width: 240px;
-    height: 200px;
-  }
-  
-  .cards-soy-wh-2 {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  
-  .cards-soy-wh-3 {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  
-  .cards-soy-wh-4 {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  
-  .cards-soy-wh-5 {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  
-  .cards-soy-wh-6 {
-    width: 490px;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  .inner-rapeseed-1 {
-    background-size: 220px 180px;
-  }
-  
-  .cards-rapeseed-wh-1 {
-    width: 230px;
-  }
-  
-  .cards-rapeseed-wh-2 { 
-    width: 310px;
-  }
-  
-  .cards-rapeseed-wh-3 {
-    width: 350px;
-  }
-  
-  .cards-rapeseed-wh-4 {
-    width: 120px;
-  }
-  
-  .cards-rapeseed-wh-5 {
-    width: 270px;
-  }
-  
-  .cards-rapeseed-wh-6 {
-    width: 540px;
-  }
-  
-  .inner-alfalfa-1 {
-    background-size: 220px 180px;
-  }
-  
-  
-  .cards-alfalfa-wh-1 {
-    width: 230px;
-  }
-  
-  .cards-alfalfa-wh-2 {
-    width: 400px;
-  }
-  
-  .cards-alfalfa-wh-3 {
-    width: 340px;
-  }
-  
-  .cards-alfalfa-wh-4 {
-    width: 300px;
-  }
-  
-  .cards-alfalfa-wh-5 {
-    width: 630px;
-  }
-  
-  .inner-sorghum-1 {
-    background-size: 220px 180px;
-  }
-  
-  .cards-sorghum-wh-1 {
-    width: 230px;
-  }
-  
-  .cards-sorghum-wh-2 {
-    width: 370px;
-  }
-  
-  .cards-sorghum-wh-3 {
-    width: 435px;
-  }
-  
-  .cards-sorghum-wh-4 {
-    width: 245px;
-  }
-  
-  .cards-sorghum-wh-5 {
-    width: 630px;
-  }
-  
   }
 
 @media(max-width: 1024px)
@@ -2187,11 +2040,13 @@ color: #5E6A6D;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 750px;
+  width: 485px;
   margin: 0 auto;
 }
+
 .cards-item-seeds {
-  width: 980px;
+  width: 100%;
+  text-align: center;
 }
 
 .header-cards-seeds2 {
@@ -2202,11 +2057,49 @@ color: #5E6A6D;
   display: inline;
 }
 
+.margin-bottom {
+  margin-bottom: 20px;
+}
 
+.cards-wrap-all-seeds {
+  width: 1000px;  
+}
 
+.pl {
+  margin-right: 10px;
+}
 
-/* .inner-corn-1 {
+.cards-centr {
+  flex-direction: row;
+}
+
+.inner-corn-1 {
   background-size: 220px 180px;
+}
+
+.cards-corn-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-corn-wh-2 { 
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-corn-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-corn-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-text4 {
+  font-size: 20px;
 }
 
 .seeds-svg-corn {
@@ -2216,34 +2109,43 @@ color: #5E6A6D;
   width: 45px;
 }
 
-.cards-corn-wh-1 {
-  width: 210px;
-}
-
-.cards-corn-wh-2 { 
-  width: 410px;
-}
-
-.cards-corn-wh-3 {
-  width: 370px;
-}
-
-.cards-corn-wh-4 {
-  width: 110px;
-}
-
 .cards-corn-wh-5 {
-  width: 80px;
-}
-
-.cards-corn-wh-6 {
-  width: 620px;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 
+.inner-sunflower-1 {
+  background-size: 220px 180px;
+}
 
+.cards-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
 
+.cards-wh-2 { 
+  width: 100%;
+  margin-bottom: 15px;
+}
 
+.cards-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* 
 .inner-soy-1 {
   background-size: 220px 180px;
 }
@@ -2283,33 +2185,7 @@ color: #5E6A6D;
 
 
 
-.inner-sunflower-1 {
-  background-size: 220px 180px;
-}
 
-.cards-wh-1 {
-  width: 220px;
-}
-
-.cards-wh-2 { 
-  width: 300px;
-}
-
-.cards-wh-3 {
-  width: 310px;
-}
-
-.cards-wh-4 {
-  width: 110px;
-}
-
-.cards-wh-5 {
-  width: 250px;
-}
-
-.cards-wh-6 {
-  width: 520px;
-}
 
 .inner-rapeseed-1 {
   background-size: 220px 180px;
@@ -2680,6 +2556,11 @@ color: #5E6A6D;
 .cards-text4 {
   font-size: 25px;
 }
+
+.cards-wrap-all-seeds {
+  width: 750px;  
+}
+
 }
 
 @media(max-width: 420px)
@@ -2986,7 +2867,7 @@ color: #5E6A6D;
 }
 
 .cards-text1 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .seeds-type {
@@ -2994,7 +2875,7 @@ color: #5E6A6D;
 }
 
 .cards-text2 {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .stars {
@@ -3008,4 +2889,13 @@ color: #5E6A6D;
 .cards-text4 {
   font-size: 25px;
 }
+
+.cards-wrap-seeds-bottom {
+  width: 410px;
+}
+
+.cards-wrap-all-seeds {
+  width: 410px;  
+}
+
 }
