@@ -768,7 +768,7 @@ html {
 }
 
 .seeds-list-left {
-  list-style: inside;
+  list-style: none;
 }
 
 .fit {  
@@ -812,6 +812,9 @@ color: #5E6A6D;
 }
 
   /* ТЕКСТ в ТАБЛИЦЕ семян*/
+.bold-text {
+  font-weight: 500;
+}
 
 .cards-text1 {
   font-size: 30px;
@@ -1777,6 +1780,11 @@ color: #5E6A6D;
 
 @media(max-width: 1024px)
 {
+
+  .seeds-list-left {
+    list-style: none;
+  }
+
   .header-top {
     display: flex;
     flex-direction: column;
@@ -2114,7 +2122,6 @@ color: #5E6A6D;
   margin-bottom: 15px;
 }
 
-
 .inner-sunflower-1 {
   background-size: 220px 180px;
 }
@@ -2145,14 +2152,44 @@ color: #5E6A6D;
   margin-bottom: 15px;
 }
 
-/* 
+.inner-rapeseed-1 {
+  background-size: 220px 180px;
+}
+
+.cards-rapeseed-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-rapeseed-wh-2 { 
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-rapeseed-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-rapeseed-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-rapeseed-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
 .inner-soy-1 {
   background-size: 220px 180px;
 }
 
 .cards-soy-wh-1 {
-  width: 240px;
-  height: 200px;
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
 }
 
 .cards-soy-wh-2 {
@@ -2175,102 +2212,69 @@ color: #5E6A6D;
   margin-bottom: 15px;
 }
 
-.cards-soy-wh-6 {
-  width: 490px;
-}
-
-
-
-
-
-
-
-
-
-.inner-rapeseed-1 {
+.inner-sorghum-1 {
   background-size: 220px 180px;
 }
 
-.cards-rapeseed-wh-1 {
-  width: 230px;
+.cards-sorghum-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
 }
 
-.cards-rapeseed-wh-2 { 
-  width: 310px;
+.cards-sorghum-wh-2 {
+  width: 100%;
+  margin-bottom: 15px;
 }
 
-.cards-rapeseed-wh-3 {
-  width: 350px;
+.cards-sorghum-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
 }
 
-.cards-rapeseed-wh-4 {
-  width: 120px;
+.cards-sorghum-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
 }
 
-.cards-rapeseed-wh-5 {
-  width: 270px;
-}
-
-.cards-rapeseed-wh-6 {
-  width: 540px;
+.cards-sorghum-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 .inner-alfalfa-1 {
   background-size: 220px 180px;
 }
 
-
 .cards-alfalfa-wh-1 {
-  width: 230px;
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
 }
 
 .cards-alfalfa-wh-2 {
-  width: 400px;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 .cards-alfalfa-wh-3 {
-  width: 340px;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 .cards-alfalfa-wh-4 {
-  width: 300px;
+  width: 100%;
+  margin-bottom: 15px;
 }
-
-.cards-alfalfa-wh-5 {
-  width: 630px;
-}
-
-.inner-sorghum-1 {
-  background-size: 220px 180px;
-}
-
-.cards-sorghum-wh-1 {
-  width: 230px;
-}
-
-.cards-sorghum-wh-2 {
-  width: 370px;
-}
-
-.cards-sorghum-wh-3 {
-  width: 435px;
-}
-
-.cards-sorghum-wh-4 {
-  width: 245px;
-}
-
-.cards-sorghum-wh-5 {
-  width: 630px;
-} */
-
-
-
 
 }
 
 @media(max-width: 768px)
 {
+  .seeds-list-left {
+    list-style: none;
+  }
+
   .header-top {
     display: flex;
     flex-direction: column;
@@ -2565,6 +2569,10 @@ color: #5E6A6D;
 
 @media(max-width: 420px)
 {
+  .seeds-list-left {
+    list-style: none;
+  }
+
 .header-top {
   display: flex;
   flex-direction: column;
