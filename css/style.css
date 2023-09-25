@@ -71,16 +71,16 @@ html {
 }
 
 .hero-container {
-  background-image: url(../img-2/hero-man.jpg);
+  background-image: url(../img-2/hero-cut1600.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 700px;
+  height: 500px;
   margin-bottom: 50px;
-  padding: 240px 0 0 0;
+  padding: 90px 0 0 300px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .container-text {
@@ -815,7 +815,7 @@ color: #5E6A6D;
   /* ТЕКСТ в ТАБЛИЦЕ семян*/
 .bold-text {
   font-weight: 500;
-  padding: 7px 0;
+  padding: 10px 0;
 }
 
 .cards-text1 {
@@ -1409,6 +1409,7 @@ color: #5E6A6D;
 
 .certificates {
   background-image: url(../img-2/cert.png);
+  background-repeat: no-repeat;
   width: 1106px;
   height: 1575px;  
 }
@@ -1430,20 +1431,52 @@ color: #5E6A6D;
   .header-top {
     width: 100vw;
   }
+
+  .cards-wrap-requisites {
+    width: 1520px;
+    margin: 0 auto;
+}
 }
 
 @media(max-width: 2560px)
 {
+  /* 2560x737 */
   .header-top {
     width: 100vw;
   }
+
+  .cards-wrap-requisites {
+    width: 1520px;
+    margin: 0 auto;
+}
 }
 
 @media(max-width: 1600px)
 {
+  /* 1600x461 
+  1284x370
+  1024x295*/
 .header-top {
   width: 100vw;
 }
+
+.cards-wrap-requisites {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.cards-wrap-all {
+  width: 1550px;
+}
+
+.cards-wrap-seeds {
+  width: 980px;
+}
+
+.cards-right-seeds {
+  width: 980px;
+}
+
 }
 
 @media(max-width: 1284px)
@@ -1483,7 +1516,7 @@ color: #5E6A6D;
   .footer-container {
     background: linear-gradient(0deg, #000000d6, #242427ac);
     height: 250px;
-    width: 100vw;
+    width: 99vw;
     padding-top: 15px; 
     font-size: 25px;
     }
@@ -1503,10 +1536,10 @@ color: #5E6A6D;
   .hero-container {
     background-image: url(../img-2/hero-man-a1200.jpg);
     background-repeat: no-repeat;
-    background-size: 1198px 340px;
+    background-size: 100% 310px;
     width: 100vw;
-    margin-bottom: 23px;
-    height: 340px;
+    margin: 0 auto 10px;
+    height: 310px;
     padding: 0px 0px 0px 0px;
     display: block;
   }
@@ -1620,7 +1653,7 @@ color: #5E6A6D;
   }
   
   .header-cards-seeds {  
-    width: 1175px;
+    width: 100%;
   }
   
   .cards-right-seeds {
@@ -1854,7 +1887,7 @@ color: #5E6A6D;
   .footer-container {
     background: linear-gradient(0deg, #000000d6, #242427ac);
     height: 250px;
-    width: 100vw;
+    width: 99vw;
     padding-top: 15px; 
     font-size: 25px;
     }
@@ -2358,7 +2391,7 @@ color: #5E6A6D;
   .footer-container {
     background: linear-gradient(0deg, #000000d6, #242427ac);
     height: 250px;
-    width: 100vw;
+    width: 99vw;
     padding-top: 15px; 
     font-size: 25px;
     }
@@ -2638,6 +2671,11 @@ color: #5E6A6D;
   font-size: 33px;
 }
 
+.certificates {
+  background-size: 750px 1068px;
+  width: 760px;
+  height: 1082px;
+}
 
 }
 
@@ -2665,7 +2703,7 @@ color: #5E6A6D;
 .footer-container {
   background: linear-gradient(0deg, #000000d6, #242427ac);
   height: 270px;
-  width: 95vw;
+  width: 98vw;
   padding-top: 15px; 
   font-size: 25px;
   }
@@ -2685,10 +2723,9 @@ color: #5E6A6D;
 .hero-container {
   background-image: url(../img-2/hero-cut.png);
   background-repeat: no-repeat;
-  background-size: 410px 500px;
-  width: 98vw;
-  height: 500px;
-  margin-bottom: 50px;
+  background-size: 415px 310px;
+  width: 100vw;
+  height: 315px;
   padding: 0px 0px 0px 0px;
   display: flex;
   flex-direction: column;
@@ -2991,4 +3028,11 @@ color: #5E6A6D;
 .requisites-text2 {
   font-size: 24px;
 }
+
+.certificates {
+  background-size: 400px 580px;
+  width: 415px;
+  height: 591px;
+}
+
 }
