@@ -470,6 +470,7 @@ html {
   font-size: 64px;
   color: #2A4903;
   font-weight: 600;
+  text-align: center;
 }
 
 .h-seeds {
@@ -814,6 +815,7 @@ color: #5E6A6D;
   /* ТЕКСТ в ТАБЛИЦЕ семян*/
 .bold-text {
   font-weight: 500;
+  padding: 7px 0;
 }
 
 .cards-text1 {
@@ -1384,6 +1386,33 @@ color: #5E6A6D;
   color: #E0E0E0;
 }
 
+.cards-requisites {
+  margin-bottom: 35px;
+}
+
+.cards-wrap-requisites {
+  width: 1180px;
+}
+
+.requisites-text {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  color: #262626;
+  padding-right: 14px;
+}
+
+.requisites-text2 {
+  font-size: 36px;
+  font-style: normal;
+}
+
+.certificates {
+  background-image: url(../img-2/cert.png);
+  width: 1106px;
+  height: 1575px;  
+}
+
   /* АДАПТИВ */
 /* 
 @media(max-width: 3940px)
@@ -1395,7 +1424,29 @@ color: #5E6A6D;
   }
 }
 */
-@media(max-width: 1200px)
+
+@media(max-width: 2778px)
+{
+  .header-top {
+    width: 100vw;
+  }
+}
+
+@media(max-width: 2560px)
+{
+  .header-top {
+    width: 100vw;
+  }
+}
+
+@media(max-width: 1600px)
+{
+.header-top {
+  width: 100vw;
+}
+}
+
+@media(max-width: 1284px)
 {
   .header-top {
     display: flex;
@@ -2267,6 +2318,20 @@ color: #5E6A6D;
   margin-bottom: 15px;
 }
 
+
+.cards-wrap-requisites {
+  width: 980px;
+}
+
+.requisites-text {
+  font-size: 36px;
+  padding-right: 14px;
+}
+
+.requisites-text2 {
+  font-size: 30px;
+}
+
 }
 
 @media(max-width: 768px)
@@ -2564,6 +2629,15 @@ color: #5E6A6D;
 .cards-wrap-all-seeds {
   width: 750px;  
 }
+
+.cards-wrap-requisites {
+  width: 740px;
+}
+
+.requisites-text {
+  font-size: 33px;
+}
+
 
 }
 
@@ -2906,4 +2980,15 @@ color: #5E6A6D;
   width: 410px;  
 }
 
+.cards-wrap-requisites {
+  width: 400px;
+}
+
+.requisites-text {
+  font-size: 30px;
+}
+
+.requisites-text2 {
+  font-size: 24px;
+}
 }
