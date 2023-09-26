@@ -3395,6 +3395,10 @@ color: #5E6A6D;
   height: 591px;
 }
 
+.cards-right-seeds {
+  width: 400px;
+}
+
 }
 
 @media(max-width: 420px)
