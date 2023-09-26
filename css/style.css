@@ -71,11 +71,11 @@ html {
 }
 
 .hero-container {
-  background-image: url(../img-2/hero-cut1600.png);
+  background-image: url(../img-2/slide/hero-man-2778.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 500px;
+  height: 800px;
   margin-bottom: 50px;
   padding: 90px 0 0 300px;
   display: flex;
@@ -85,7 +85,6 @@ html {
 
 .container-text {
   display: flex;
-  height: 460px;
   width: 890px;
 }
 
@@ -1445,6 +1444,11 @@ color: #5E6A6D;
     width: 100vw;
   }
 
+  .hero-container {
+    height: 737px;
+    padding: 110px 0 0 335px;
+  }
+
   .cards-wrap-requisites {
     width: 1520px;
     margin: 0 auto;
@@ -1453,11 +1457,17 @@ color: #5E6A6D;
 
 @media(max-width: 1600px)
 {
-  /* 1600x461 
+  /* 
   1284x370
-  1024x295*/
+  1024x
+  */
 .header-top {
   width: 100vw;
+}
+
+.hero-container {
+  height: 461px;
+  padding: 35px 0 0 335px;
 }
 
 .cards-wrap-requisites {
@@ -1491,7 +1501,7 @@ color: #5E6A6D;
     border-top: 15px solid green;
     border-bottom: 15px solid orange;
     }
-  
+
   .addres {
     font-size: 22px;
   }
@@ -1534,14 +1544,8 @@ color: #5E6A6D;
   }
   
   .hero-container {
-    background-image: url(../img-2/hero-man-a1200.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 310px;
-    width: 100vw;
-    margin: 0 auto 10px;
-    height: 310px;
-    padding: 0px 0px 0px 0px;
-    display: block;
+    height: 370px;
+    padding: 65px 0 0 430px;
   }
   
   .hero-a {
@@ -1562,7 +1566,7 @@ color: #5E6A6D;
   .container-text {
     height: 340px;
     width: 940px;
-    padding-left: 460px;
+    padding: 0px;
   }
   
   .cards-wrap-all {
@@ -1905,14 +1909,10 @@ color: #5E6A6D;
   }
   
   .hero-container {
-    background-image: url(../img-2/hero-man-a1024.jpg);
-    background-repeat: no-repeat;
-    background-size: 1020px 340px;
     width: 100vw;
     margin-bottom: 23px;
-    height: 340px;
-    padding: 0px 0px 0px 0px;
-    display: block;
+    height: 295px;
+    padding: 45px 0 0 345px;
   }
   
   .hero-a {
@@ -1931,9 +1931,8 @@ color: #5E6A6D;
   }
   
   .container-text {
-    height: 340px;
     width: 864px;
-    /* padding-left: 401px; */
+    padding: 0;
   }
   
   .cards-wrap-all {
@@ -2409,7 +2408,7 @@ color: #5E6A6D;
   }
   
   .hero-container {
-    background-image: url(../img-2/hero-cut768.png);
+    background-image: url(../img-2/slide/hero-cut768.png);
     background-repeat: no-repeat;
     background-size: 758px 340px;
     width: 100vw;
@@ -2438,7 +2437,7 @@ color: #5E6A6D;
   .container-text {
     height: 340px;
     width: 405px;
-    padding-left: 0px;
+    padding-left: 15px;
   }
   
   .cards-wrap-all {
@@ -2721,7 +2720,7 @@ color: #5E6A6D;
 }
 
 .hero-container {
-  background-image: url(../img-2/hero-cut.png);
+  background-image: url(../img-2/slide/hero-cut.png);
   background-repeat: no-repeat;
   background-size: 415px 310px;
   width: 100vw;
