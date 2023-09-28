@@ -23,16 +23,19 @@ a {
 
 html {
   scroll-behavior: smooth;
-  /* overflow: hidden; */
+  
 }
 
+
 /* body {
- max-width: 420px;
-} */
+  Overflow: hidden;
+  } */
 
 
 .container-m {
-  width: 100vw;
+  width: 100%;
+  overflow: hidden;
+  height: auto;
   padding: 5px;
   margin: 0 auto;
   background-color: #F0F0F0;
@@ -1183,18 +1186,7 @@ color: #5E6A6D;
  
 }
 
-/* .swiper-container {
-  margin-left: 0px;
-  margin-right: 5px;
-  position: relative;
-  overflow: hidden;
-  list-style: none;
-  width: 98vw;
-  padding: 0;
-  z-index: 1;
-  object-fit: cover;
 
-} */
 
 .swiper {
  height: auto;
