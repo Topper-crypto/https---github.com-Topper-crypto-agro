@@ -3929,7 +3929,7 @@ color: #5E6A6D;
   .hero-container {
     background-image: url(../img-2/slide/hero-cut768.png);
     background-repeat: no-repeat;
-    background-size: 758px 340px;
+    background-size: 820px 340px;
     width: 100%;
     height: 340px;
     margin-bottom: 23px;
@@ -4527,7 +4527,7 @@ color: #5E6A6D;
 .header-top {
   display: flex;
   flex-direction: column;
-  width: 590px;
+  width: 745px;
   height: 270px;
   justify-content: space-between;
   align-items: center;
@@ -4536,7 +4536,7 @@ color: #5E6A6D;
   }
 
 .cards-right-seeds {
-    width: 580px;
+    width: 745px;
 }
 
 .addres {
@@ -4546,7 +4546,7 @@ color: #5E6A6D;
 .footer-container {
   background: linear-gradient(0deg, #000000d6, #242427ac);
   height: 270px;
-  width: 98%;
+  width: 99%;
   padding-top: 15px; 
   font-size: 25px;
   }
@@ -4566,7 +4566,7 @@ color: #5E6A6D;
 .hero-container {
   background-image: url(../img-2/slide/hero-cut-591.png);
   background-repeat: no-repeat;
-  background-size: 590px 305px;
+  background-size: 745px 305px;
   width: 100%;
   height: 305px;
   padding: 0px 0px 0px 0px;
@@ -4824,7 +4824,7 @@ color: #5E6A6D;
 }
 
 .modal__dialog {
-  width: 87%;
+  width: 80%;
   padding: 0px 30px;
   overflow-y: scroll;
 }
