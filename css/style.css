@@ -1641,6 +1641,7 @@ color: #5E6A6D;
   
   .cards-right-seeds {
     width: 1160px;
+    
   }
   
 .cards-wrap-all-seeds {
@@ -3866,6 +3867,15 @@ color: #5E6A6D;
     font-size: 22px;
   }
   
+  .img-seeds-right-text {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: #434B4F; 
+    text-align: justify;
+  }
+
+
   .footer-container {
     background: linear-gradient(0deg, #000000d6, #242427ac);
     height: 250px;
@@ -4178,6 +4188,15 @@ color: #5E6A6D;
     font-size: 22px;
   }
   
+
+  .img-seeds-right-text {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: #434B4F; 
+    text-align: justify;
+  }
+
   .footer-container {
     background: linear-gradient(0deg, #000000d6, #242427ac);
     height: 250px;
@@ -4486,6 +4505,17 @@ color: #5E6A6D;
 .cards-right-seeds {
     width: 745px;
 }
+
+
+.img-seeds-right-text {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 300;
+  color: #434B4F; 
+  text-align: justify;
+}
+
+
 
 .addres {
   font-size: 22px;
@@ -4848,6 +4878,16 @@ color: #5E6A6D;
   font-size: 22px;
 }
 
+.img-seeds-right-text {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 300;
+  color: #434B4F; 
+  text-align: justify;
+}
+
+
+
 .footer-container {
   background: linear-gradient(0deg, #000000d6, #242427ac);
   height: 270px;
@@ -5196,6 +5236,17 @@ color: #5E6A6D;
   border-top: 15px solid green;
   border-bottom: 15px solid orange;
   }
+
+
+  .img-seeds-right-text {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: #434B4F; 
+    text-align: justify;
+  }
+
+
 
 .cards-right-seeds {
     width: 580px;
@@ -5572,6 +5623,17 @@ color: #5E6A6D;
   flex-direction: column;
 }
 
+.img-seeds-right-text {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 300;
+  color: #434B4F; 
+  text-align: justify;
+}
+
+
+
+
 .nav-list--item {
   padding:0 0 15px 0;
   color: yellowgreen;
@@ -5912,6 +5974,17 @@ color: #5E6A6D;
 .addres {
   font-size: 22px;
 }
+
+.img-seeds-right-text {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 300;
+  color: #434B4F; 
+  text-align: justify;
+}
+
+
+
 
 .footer-container {
   background: linear-gradient(0deg, #000000d6, #242427ac);
@@ -6286,6 +6359,16 @@ color: #5E6A6D;
   padding:0 0 15px 0;
   color: yellowgreen;
 }
+
+.img-seeds-right-text {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 300;
+  color: #434B4F; 
+  text-align: justify;
+}
+
+
 
 .hero-container {
   background-image: url(../img-2/slide/hero-cut.png);
