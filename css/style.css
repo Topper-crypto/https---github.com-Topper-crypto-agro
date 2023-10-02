@@ -1471,9 +1471,382 @@ color: #5E6A6D;
 }
 
 }
+/* 1366 */
+
+@media(max-width: 1366px)
+{
+  .header-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 270px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 15px solid green;
+    border-bottom: 15px solid orange;
+    }
+
+  .addres {
+    font-size: 22px;
+  }
+  
+  .cards-wrap-production {
+    border-top: 2px solid black;
+    margin: 0 auto;
+    width: 1200px;
+  }
+
+  .cards-wrap-production1 {
+    margin: 0 auto;
+    width: 1200px;
+  }
+
+  .list-production {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .footer-container {
+    background: linear-gradient(0deg, #000000d6, #242427ac);
+    height: 250px;
+    width: 99%;
+    padding-top: 15px; 
+    font-size: 25px;
+    }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .nav-list--item {
+    padding:0 0 15px 0;
+    color: yellowgreen;
+  }
+  
+  .hero-container {
+    height: 370px;
+    padding: 65px 0 0 430px;
+  }
+  
+ 
+  .hero-text {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    color: #2A4903;
+  }
+  
+  .container-text {
+    height: 340px;
+    width: 940px;
+    padding: 0px;
+  }
+  
+  .cards-wrap-all {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .cards-item {
+    margin-bottom: 23px;
+  }
+  
+  .img-wrap {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    width: 402px;
+    height: 257px;
+    padding: 70px 210px 80px 30px; 
+  }
+  
+  .img-1 {
+    background-image: url(../img-2/seeds.png);
+    background-size: 417px 275px;  
+    background-repeat: no-repeat;
+    z-index: 100;
+    border-radius: 10px;
+  }
+  
+  .img-2 {
+    background-image: url(../img-2/deff.png);
+    background-size: 417px 275px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    background-position: top left;
+    border-radius: 10px;
+  }
+  
+  .img-3 {
+    background-image: url(../img-2/micro.png);
+    background-size: 417px 275px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    overflow-x: visible;
+    border-radius: 10px;
+  }
+  
+  .img-4 {
+    background-image: url(../img-2/service.png);
+    background-size: 417px 275px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    overflow-x: visible;
+    border-radius: 10px;
+  }
+  
+  .header-item {
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  .cards-services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 804px;
+  }
+  
+  .cards-wrap {
+    width: 1020px;
+    margin: 0 auto;
+    border-top: 2px solid black;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .cards-wrap-seeds {
+    padding-top: 25px;
+    width: 1175px;
+  }
+  
+  .right {
+    width: 1175px;
+  }
+  
+  .header-cards-seeds {  
+    width: 100%;
+  }
+  
+  .cards-right-seeds {
+    width: 1160px;
+    
+  }
+  
+.cards-wrap-all-seeds {
+    width: 1180px;  
+  }
+
+  .cards-text1 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .seeds-type {
+    font-size: 25px;
+    font-weight: 600;  
+  }
+  
+  .cards-text2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .stars {
+    width: 20px;
+  }
+  
+  .cards-text3 {
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  .cards-text4 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+.inner-corn-1 {
+    background-size: 200px 160px;
+  }
+
+  .seeds-svg-corn {
+    width: 45px;
+  }
+  .seeds-svg-cow {
+    width: 45px;
+  }
+  
+  .cards-corn-wh-1 {
+    width: 210px;
+  }
+  
+  .cards-corn-wh-2 { 
+    width: 410px;
+  }
+  
+  .cards-corn-wh-3 {
+    width: 370px;
+  }
+  
+  .cards-corn-wh-4 {
+    width: 110px;
+  }
+  
+  .cards-corn-wh-5 {
+    width: 80px;
+  }
+  
+  .cards-corn-wh-6 {
+    width: 620px;
+  }
+
+  .inner-sunflower-1 {
+    background-size: 200px 160px;
+  }
+  
+  .cards-wh-1 {
+    width: 220px;
+  }
+  
+  .cards-wh-2 { 
+    width: 345px;
+  }
+  
+  .cards-wh-3 {
+    width: 290px;
+  }
+  
+  .cards-wh-4 {
+    width: 100px;
+  }
+  
+  .cards-wh-5 {
+    width: 225px;
+  }
+  
+  .cards-wh-6 {
+    width: 565px;
+  }
+
+  .inner-rapeseed-1 {
+    background-size: 200px 160px;
+  }
+  
+  .cards-rapeseed-wh-1 {
+    width: 220px;
+  }
+  
+  .cards-rapeseed-wh-2 { 
+    width: 300px;
+  }
+  
+  .cards-rapeseed-wh-3 {
+    width: 300px;
+  }
+  
+  .cards-rapeseed-wh-4 {
+    width: 110px;
+  }
+  
+  .cards-rapeseed-wh-5 {
+    width: 250px;
+  }
+  
+  .cards-rapeseed-wh-6 {
+    width: 520px;
+  }
+
+  .inner-soy-1 {
+    background-size: 200px 160px;
+  }
+  
+  .cards-soy-wh-1 {
+    width: 210px;
+  }
+  
+  .cards-soy-wh-2 {
+    width: 280px;
+  }
+  
+  .cards-soy-wh-3 {
+    width: 290px;
+  }
+  
+  .cards-soy-wh-4 {
+    width: 200px;
+  }
+  
+  .cards-soy-wh-5 {
+    width: 200px;
+  }
+  
+  .cards-soy-wh-6 {
+    width: 490px;
+  }
+
+  .inner-sorghum-1 {
+    background-size: 200px 160px;
+  }
+  
+  .cards-sorghum-wh-1 {
+    width: 220px;
+  }
+  
+  .cards-sorghum-wh-2 {
+    width: 370px;
+  }
+  
+  .cards-sorghum-wh-3 {
+    width: 380px;
+  }
+  
+  .cards-sorghum-wh-4 {
+    width: 220px;
+  }
+  
+  .cards-sorghum-wh-5 {
+    width: 590px;
+  }
+
+  .inner-alfalfa-1 {
+    background-size: 200px 160px;
+  }
+    
+  .cards-alfalfa-wh-1 {
+    width: 220px;
+  }
+  
+  .cards-alfalfa-wh-2 {
+    width: 400px;
+  }
+  
+  .cards-alfalfa-wh-3 {
+    width: 320px;
+  }
+  
+  .cards-alfalfa-wh-4 {
+    width: 250px;
+  }
+  
+  .cards-alfalfa-wh-5 {
+    width: 620px;
+  }
+
+  }
 
 
 
+/* 1284 */
 
 @media(max-width: 1284px)
 {
@@ -1845,6 +2218,507 @@ color: #5E6A6D;
   }
 
   }
+
+
+/* 1280 */
+
+@media(max-width: 1242px)
+{
+
+  .seeds-list-left {
+    list-style: none;
+  }
+
+  .header-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 270px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 15px solid green;
+    border-bottom: 15px solid orange;
+    }
+  
+  .addres {
+    font-size: 22px;
+  }
+  
+  .footer-container {
+    background: linear-gradient(0deg, #000000d6, #242427ac);
+    height: 250px;
+    width: 99%;
+    padding-top: 15px; 
+    font-size: 25px;
+    }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .nav-list--item {
+    padding:0 0 15px 0;
+    color: yellowgreen;
+  }
+  
+  .hero-container {
+    width: 100%;
+    margin-bottom: 23px;
+    height: 295px;
+    padding: 45px 0 0 345px;
+  }
+
+  
+  .hero-text {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    color: #2A4903;
+  }
+  
+  .container-text {
+    width: 864px;
+    padding: 0;
+  }
+  
+  .cards-wrap-all {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .cards-item {
+    margin-bottom: 23px;
+  }
+  
+  .img-wrap {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    width: 402px;
+    height: 257px;
+    padding: 70px 210px 80px 30px; 
+  }
+  
+  .img-1 {
+    background-image: url(../img-2/seeds.png);
+    background-size: 417px 275px;  
+    background-repeat: no-repeat;
+    z-index: 100;
+    border-radius: 10px;
+  }
+  
+  .img-2 {
+    background-image: url(../img-2/deff.png);
+    background-size: 417px 275px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    background-position: top left;
+    border-radius: 10px;
+  }
+  
+  .img-3 {
+    background-image: url(../img-2/micro.png);
+    background-size: 417px 275px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    overflow-x: visible;
+    border-radius: 10px;
+  }
+  
+  .img-4 {
+    background-image: url(../img-2/service.png);
+    background-size: 417px 275px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    overflow-x: visible;
+    border-radius: 10px;
+  }
+  
+  .header-item {
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  .cards-services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 804px; 
+  }
+  
+  .cards-wrap {
+    width: 1020px;
+    margin: 0 auto;
+    border-top: 2px solid black;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* SEEDS */
+
+.img-seeds-lidea {
+  background-image: url(../img-2/lidea-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+
+.header-cards-link-seeds {
+  font-size: 49px;
+  color: #2A4903;
+  font-weight: 600;
+}
+
+.cards-wrap-seeds {
+  padding-top: 25px;
+  width: 1000px;
+}
+
+.right {
+  width: 1000px;
+}
+
+.header-cards-seeds {  
+  width: 1000px;
+}
+
+.cards-right-seeds {
+  width: 1000px;
+}
+
+.cards-wrap-production {
+  border-top: 2px solid black;
+  margin: 23px;
+  width: 1000px;
+}
+
+.cards-item-seeds-tab {
+  margin-bottom: 23px;
+}
+.img-seeds-alfalfa {
+  background-image:  url(../img-2/alfalfa/alfalfa-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+}
+
+.img-seeds-1 {  
+  background-image:  url(../img-2/corn/corn-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+}
+
+.img-seeds-podsolnuh {
+  background-image:  url(../img-2/sunflower/sunflower-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+}
+
+.img-seeds-soya {
+  background-image:  url(../img-2/soy/soy-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+}
+
+.img-seeds-raps {
+  background-image:  url(../img-2/rapeseed/rapeseed-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+}
+
+.img-seeds-sorghum {
+  background-image:  url(../img-2/sorghum/sorghum-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+}
+
+.cards-text1 {
+  font-size: 30px;
+}
+
+.seeds-type {
+  font-size: 30px;
+}
+
+.cards-text2 {
+  font-size: 30px;
+}
+
+.stars {
+  width: 25px;
+}
+
+.cards-text3 {
+  font-size: 20px;
+}
+
+.cards-text4 {
+  font-size: 25px;
+}
+
+.seeds-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards-wrap-seeds-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 485px;
+  margin: 0 auto;
+}
+
+.cards-item-seeds {
+  width: 100%;
+  text-align: center;
+}
+
+.header-cards-seeds2 {
+  display: none;
+}
+
+.visible {
+  display: inline;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.cards-wrap-all-seeds {
+  width: 1000px;  
+}
+
+.pl {
+  margin-right: 10px;
+}
+
+.cards-centr {
+  flex-direction: row;
+}
+
+.inner-corn-1 {
+  background-size: 220px 180px;
+}
+
+.cards-corn-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-corn-wh-2 { 
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-corn-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-corn-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-text4 {
+  font-size: 20px;
+}
+
+.seeds-svg-corn {
+  width: 45px;
+}
+.seeds-svg-cow {
+  width: 45px;
+}
+
+.cards-corn-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.inner-sunflower-1 {
+  background-size: 220px 180px;
+}
+
+.cards-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-wh-2 { 
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.inner-rapeseed-1 {
+  background-size: 220px 180px;
+}
+
+.cards-rapeseed-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-rapeseed-wh-2 { 
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-rapeseed-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-rapeseed-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-rapeseed-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.inner-soy-1 {
+  background-size: 220px 180px;
+}
+
+.cards-soy-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-soy-wh-2 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-soy-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-soy-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-soy-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.inner-sorghum-1 {
+  background-size: 220px 180px;
+}
+
+.cards-sorghum-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-sorghum-wh-2 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-sorghum-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-sorghum-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-sorghum-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.inner-alfalfa-1 {
+  background-size: 220px 180px;
+}
+
+.cards-alfalfa-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-alfalfa-wh-2 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-alfalfa-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-alfalfa-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+.cards-wrap-requisites {
+  width: 980px;
+}
+
+.requisites-text {
+  font-size: 36px;
+  padding-right: 14px;
+}
+
+.requisites-text2 {
+  font-size: 30px;
+}
+
+}
+
+
+
+
+
   /* 1242 */
 
   @media(max-width: 1242px)
@@ -3347,6 +4221,505 @@ color: #5E6A6D;
   }
   
   }
+
+
+/* 1080 */
+
+
+
+@media(max-width: 1080px)
+{
+
+  .seeds-list-left {
+    list-style: none;
+  }
+
+  .header-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 270px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 15px solid green;
+    border-bottom: 15px solid orange;
+    }
+  
+  .addres {
+    font-size: 22px;
+  }
+  
+  .footer-container {
+    background: linear-gradient(0deg, #000000d6, #242427ac);
+    height: 250px;
+    width: 99%;
+    padding-top: 15px; 
+    font-size: 25px;
+    }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .nav-list--item {
+    padding:0 0 15px 0;
+    color: yellowgreen;
+  }
+  
+  .hero-container {
+    width: 100%;
+    margin-bottom: 23px;
+    height: 295px;
+    padding: 45px 0 0 345px;
+  }
+  
+
+  
+  .hero-text {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    color: #2A4903;
+  }
+  
+  .container-text {
+    width: 864px;
+    padding: 0;
+  }
+  
+  .cards-wrap-all {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .cards-item {
+    margin-bottom: 23px;
+  }
+  
+  .img-wrap {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    width: 402px;
+    height: 257px;
+    padding: 70px 210px 80px 30px; 
+  }
+  
+  .img-1 {
+    background-image: url(../img-2/seeds.png);
+    background-size: 417px 275px;  
+    background-repeat: no-repeat;
+    z-index: 100;
+    border-radius: 10px;
+  }
+  
+  .img-2 {
+    background-image: url(../img-2/deff.png);
+    background-size: 417px 275px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    background-position: top left;
+    border-radius: 10px;
+  }
+  
+  .img-3 {
+    background-image: url(../img-2/micro.png);
+    background-size: 417px 275px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    overflow-x: visible;
+    border-radius: 10px;
+  }
+  
+  .img-4 {
+    background-image: url(../img-2/service.png);
+    background-size: 417px 275px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    overflow-x: visible;
+    border-radius: 10px;
+  }
+  
+  .header-item {
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  .cards-services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 804px; 
+  }
+  
+  .cards-wrap {
+    width: 1020px;
+    margin: 0 auto;
+    border-top: 2px solid black;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* SEEDS */
+
+.img-seeds-lidea {
+  background-image: url(../img-2/lidea-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+
+.header-cards-link-seeds {
+  font-size: 49px;
+  color: #2A4903;
+  font-weight: 600;
+}
+
+.cards-wrap-seeds {
+  padding-top: 25px;
+  width: 1000px;
+}
+
+.right {
+  width: 1000px;
+}
+
+.header-cards-seeds {  
+  width: 1000px;
+}
+
+.cards-right-seeds {
+  width: 1000px;
+}
+
+.cards-wrap-production {
+  border-top: 2px solid black;
+  margin: 23px;
+  width: 1000px;
+}
+
+.cards-item-seeds-tab {
+  margin-bottom: 23px;
+}
+.img-seeds-alfalfa {
+  background-image:  url(../img-2/alfalfa/alfalfa-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+}
+
+.img-seeds-1 {  
+  background-image:  url(../img-2/corn/corn-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+}
+
+.img-seeds-podsolnuh {
+  background-image:  url(../img-2/sunflower/sunflower-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+}
+
+.img-seeds-soya {
+  background-image:  url(../img-2/soy/soy-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+}
+
+.img-seeds-raps {
+  background-image:  url(../img-2/rapeseed/rapeseed-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+}
+
+.img-seeds-sorghum {
+  background-image:  url(../img-2/sorghum/sorghum-t.png);
+  background-size: 400px 568px;
+  width: 400px;
+  height: 535px;
+}
+
+.cards-text1 {
+  font-size: 30px;
+}
+
+.seeds-type {
+  font-size: 30px;
+}
+
+.cards-text2 {
+  font-size: 30px;
+}
+
+.stars {
+  width: 25px;
+}
+
+.cards-text3 {
+  font-size: 20px;
+}
+
+.cards-text4 {
+  font-size: 25px;
+}
+
+.seeds-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards-wrap-seeds-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 485px;
+  margin: 0 auto;
+}
+
+.cards-item-seeds {
+  width: 100%;
+  text-align: center;
+}
+
+.header-cards-seeds2 {
+  display: none;
+}
+
+.visible {
+  display: inline;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.cards-wrap-all-seeds {
+  width: 1000px;  
+}
+
+.pl {
+  margin-right: 10px;
+}
+
+.cards-centr {
+  flex-direction: row;
+}
+
+.inner-corn-1 {
+  background-size: 220px 180px;
+}
+
+.cards-corn-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-corn-wh-2 { 
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-corn-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-corn-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-text4 {
+  font-size: 20px;
+}
+
+.seeds-svg-corn {
+  width: 45px;
+}
+.seeds-svg-cow {
+  width: 45px;
+}
+
+.cards-corn-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.inner-sunflower-1 {
+  background-size: 220px 180px;
+}
+
+.cards-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-wh-2 { 
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.inner-rapeseed-1 {
+  background-size: 220px 180px;
+}
+
+.cards-rapeseed-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-rapeseed-wh-2 { 
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-rapeseed-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-rapeseed-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-rapeseed-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.inner-soy-1 {
+  background-size: 220px 180px;
+}
+
+.cards-soy-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-soy-wh-2 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-soy-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-soy-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-soy-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.inner-sorghum-1 {
+  background-size: 220px 180px;
+}
+
+.cards-sorghum-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-sorghum-wh-2 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-sorghum-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-sorghum-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-sorghum-wh-5 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.inner-alfalfa-1 {
+  background-size: 220px 180px;
+}
+
+.cards-alfalfa-wh-1 {
+  width: 220px;
+  height: 180px;
+  margin: 0 auto 15px;
+}
+
+.cards-alfalfa-wh-2 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-alfalfa-wh-3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cards-alfalfa-wh-4 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+.cards-wrap-requisites {
+  width: 980px;
+}
+
+.requisites-text {
+  font-size: 36px;
+  padding-right: 14px;
+}
+
+.requisites-text2 {
+  font-size: 30px;
+}
+
+}
 
 
 
