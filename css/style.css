@@ -7490,8 +7490,7 @@ color: #5E6A6D;
 .headers-service {
   width: 410px;
   margin: 0 auto 20px;
-  /* min-height: 230px;
-  max-height: 1000px; */
+
 }
 
 .text-header {
@@ -7698,6 +7697,7 @@ color: #5E6A6D;
 
 }
 
+/* 460 */
 
 @media(max-width: 460px)
 {
@@ -8219,8 +8219,7 @@ color: #5E6A6D;
 .headers-service {
   width: 410px;
   margin: 0 auto 20px;
-  /* min-height: 230px;
-  max-height: 1000px; */
+  
 }
 
 .text-header {
@@ -8583,8 +8582,7 @@ color: #5E6A6D;
 .headers-service {
   width: 410px;
   margin: 0 auto 20px;
-  /* min-height: 230px;
-  max-height: 1000px; */
+  
 }
 
 .text-header {
