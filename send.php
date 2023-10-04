@@ -39,7 +39,7 @@ try {
     $mail->setFrom('sales.alfaagro@yandex.ru', 'sales.alfaagro'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('alfaAgro62@yandex.ru');  
+    $mail->addAddress('alfaagro62@yandex.ru');  
     
 
     // Прикрипление файлов к письму
