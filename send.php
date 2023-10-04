@@ -30,16 +30,16 @@ try {
 
     // Настройки вашей почты
     $mail->Host       = 'ssl://smtp.yandex.ru'; // SMTP сервера вашей почты
-    $mail->Username   = 'test@td-minkom.ru'; // Логин на почте
+    $mail->Username   = 'sales.alfaagro@yandex.ru'; // Логин на почте
     // 4uOLbrZJZQ5BuiuS0B
     
-    $mail->Password   = 'cgpjpwddowowpfll'; // Пароль на почте
+    $mail->Password   = 'qrrljgjpqyopcwzw'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('test@td-minkom.ru', 'korovin80'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('sales.alfaagro@yandex.ru', 'sales.alfaagro'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('korovin80@yandex.ru');  
+    $mail->addAddress('alfaAgro62@yandex.ru');  
     
 
     // Прикрипление файлов к письму
@@ -70,4 +70,4 @@ else {$result = "error";}
 }
 
 // Отображение результата
-header('location: thanx.html');
+header('location: index.html');
